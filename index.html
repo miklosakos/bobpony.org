@@ -8,6 +8,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
   </head>
   <body>
+	  <!--- MODALS --->
+	  <div class="modal" id="settings">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Settings</p>
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+     Coming soon!
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-success">Save changes</button>
+      <button class="button">Cancel</button>
+    </footer>
+  </div>
+</div>
+	  <div class="modal" id="search">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Search</p>
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+      Coming soon!
+    </section>
+    <footer class="modal-card-foot">
+    </footer>
+  </div>
+</div>
+	  <!--- END --->
  <nav class="navbar is-info" role="navigation" aria-label="dropdown navigation">
  <div class="navbar-menu">
     <div class="navbar-start">
@@ -45,10 +77,10 @@
   </div>
   
   <div class="navbar-end">
-  <a class="navbar-item">
+  <a class="navbar-item" data-target="settings">
   <i class="fas fa-cog fa-spin"></i>
 </a>
-      <a class="navbar-item">
+      <a class="navbar-item" data-target="search">
   <i class="fas fa-search"></i>
 </a>
     </div>
