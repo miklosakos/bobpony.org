@@ -5,9 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BobPony.org Home</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+	<script>
+	$(document).on('click', '.notification > button.delete', function() {
+    $(this).parent().addClass('is-hidden');
+    return false;
+});
+</script>
+<script>
+function toggleModalClasses(event) {
+    var modalId = event.currentTarget.dataset.modalId;
+    var modal = $(modalId);
+    modal.toggleClass('is-active');
+    $('html').toggleClass('is-clipped');
+  };
+
+$('.open-modal').click(toggleModalClasses);
+
+$('.close-modal').click(toggleModalClasses);
+</script>
   </head>
-  <body>
+  <body style="background-color: #444444;">
 	  <!-- MODALS -->
 	  <div class="modal" id="settings">
   <div class="modal-background"></div>
@@ -83,10 +102,10 @@
   </div>
 
   <div class="navbar-end">
-  <a class="navbar-item" data-target="settings">
+  <a class="navbar-item" data-target="#settings">
   <i class="fas fa-cog fa-spin"></i>
 </a>
-      <a class="navbar-item" data-target="search">
+      <a class="navbar-item" data-target="#search">
   <i class="fas fa-search"></i>
 </a>
     </div>
@@ -103,22 +122,16 @@
     </p>
 	<a class="button is-rounded"><i class="fas fa-eye"></i> View Advertisement</a>
 	<a class="button is-danger is-rounded" href="https://www.youtube.com/watch?v=x7vZW-qnj8c&list=UUAZzz2Dd9Xh6vTjNcxhqPZw" target="_blank"><i class="fab fa-youtube"></i> Watch latest video</a>
-	<a class="button is-info is-rounded"><i class="fas fa-question-circle"></i> What's new?</a>
   </div>
   </div>
 </section>
 
 <div class="container">
 <p style="margin-top: 1.5em">
-<article class="message is-info">
-  <div class="message-header">
-    <p>Welcome to the new redesigned BobPony.org homepage!</p>
-    <button class="delete" aria-label="delete"></button>
-  </div>
-  <div class="message-body">
-    New year, new update! Welcome to Bob Pony Bulma, we hope that you'll enjoy this new redesign.<br>Do you have any questions, or any feedback at this redesign? E-mail <a href="mailto:contact@bobpony.org">contact@bobpony.org</a>
-  </div>
-</article>
+<div class="notification is-info">
+        <button class="delete"></button>
+        New year, new update! Welcome to Bob Pony Bulma, we hope that you'll enjoy this new redesign. <a href="">What's new?</a>
+      </div>
 </p>
 </div>
 <div class="container">
@@ -205,10 +218,12 @@
   <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <p>
-        <i class="far fa-copyright"></i> BobPony.org 2016 - 2018
-      </p>
-	  <div class="buttons has-addons">
+     
+	 
+<div class="columns">
+  <div class="column">
+  <b>Get connected</b>
+     <div class="buttons has-addons">
   <span class="button is-danger" onclick="location.href='https://www.youtube.com/bobpony'"><i class="fab fa-youtube"></i></span>
   <span class="button is-info" onclick="location.href='https://twitter.com/TheBobPony'"><i class="fab fa-twitter"></i></span>
   <span class="button is-black" onclick="location.href='https://steamcommunity.com/groups/BobPony'"><i class="fab fa-steam-symbol"></i></span>
@@ -219,6 +234,24 @@
 <span class="button" onclick="location.href='https://discord.me/bobpony'"><i class="fab fa-discord"></i></span>
 <span class="button" onclick="location.href='mailto:contact@bobpony.org'"><i class="fas fa-envelope"></i></span>
 </div>
+  </div>
+  <div class="column">
+    <b>Mini Site map</b><br>
+	<a href="https://blog.bobpony.org">Blog</a><br>
+	<a href="https://network.bobpony.org">Bob Pony Network</a><br>
+	<a href="https://cloud.bobpony.org">Bob Pony Cloud</a><br>
+	<a href="https://bot.bobpony.org">Bot Pony Discord Bot</a>
+  </div>
+  <div class="column">
+    <b>Additional Links</b><br>
+	<a href="https://bobpony.org">About site</a><br>
+	<a href="https://tools.bobpony.org">Tools</a><br>
+	<a href="https://bobpony.org/r">Random things</a><br>
+  </div>
+</div>
+ <p>
+        <i class="far fa-copyright"></i> BobPony.org 2016 - 2018
+      </p>
     </div>
   </div>
 </footer>
