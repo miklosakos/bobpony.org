@@ -6,12 +6,39 @@
     <title>Bob Pony - Home</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="description" content="BobPony.org homepage">
+<meta name="keywords" content="BPN, Bob Pony, BP, BPC, Discord, Twitter, YouTube, Blog, Home, Homepage, bobpony.org, social, chat, projects">
+<meta name="author" content="Bob Pony">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bob Pony">
+<meta property="og:title" content="Bob Pony">
+<meta property="og:url" content="https://bobpony.org">
+<meta property="og:description" content="Welcome to the world of Bob Pony.">
+<meta property="og:image" content="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg">
+<meta name="description" content="Welcome to the world of Bob Pony.">
+<meta name="theme-color" content="#008cff">
+<meta name="msapplication-TileColor" content="#008cff" />
+<meta name="msapplication-square150x150logo" content="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@TheBobPony" />
+<meta name="twitter:title" content="BobPony.org Home" />
+<meta name="twitter:description" content="Welcome to the world of Bob Pony." />
+<meta name="twitter:image" content="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg" />
 	<script>
 	$(document).on('click', '.notification > button.delete', function() {
     $(this).parent().addClass('is-hidden');
     return false;
 });
+</script>
+<script>
+function toggleBurger() {
+    var burger = $('.burger');
+    var menu = $('.navbar-menu');
+    burger.toggleClass('is-active');
+    menu.toggleClass('is-active');
+}
 </script>
 <script>
 function toggleModalClasses(event) {
@@ -28,36 +55,6 @@ $('.close-modal').click(toggleModalClasses);
   </head>
   <body style="background-color: #444444;">
 	  <!-- MODALS -->
-	  <div class="modal" id="settings">
-  <div class="modal-background"></div>
-  <div class="modal-card">
-    <header class="modal-card-head">
-      <p class="modal-card-title">Settings</p>
-      <button class="delete" aria-label="close"></button>
-    </header>
-    <section class="modal-card-body">
-     Coming soon!
-    </section>
-    <footer class="modal-card-foot">
-      <button class="button is-success">Save changes</button>
-      <button class="button">Cancel</button>
-    </footer>
-  </div>
-</div>
-	  <div class="modal" id="search">
-  <div class="modal-background"></div>
-  <div class="modal-card">
-    <header class="modal-card-head">
-      <p class="modal-card-title">Search</p>
-      <button class="delete" aria-label="close"></button>
-    </header>
-    <section class="modal-card-body">
-      Coming soon!
-    </section>
-    <footer class="modal-card-foot">
-    </footer>
-  </div>
-</div>
 	  <!-- END -->
  <nav class="navbar is-info" role="navigation" aria-label="dropdown navigation">
  <div class="navbar-menu">
@@ -103,16 +100,13 @@ $('.close-modal').click(toggleModalClasses);
 </a>
     </div>
   </div>
-
-  <div class="navbar-end">
-  <a class="navbar-item" href="https://youtube.com/bobpony">
-  <i class="fab fa-youtube"></i>
-</a>
-      <a class="navbar-item" href="https://twitter.com/thebobpony">
-  <i class="fab fa-twitter"></i>
-</a>
+<div class="navbar-burger burger" data-target="navMenu" onclick="toggleBurger()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
-  </div>
+   </div>
 </nav>
 <section class="hero is-dark">
   <div class="hero-body">
