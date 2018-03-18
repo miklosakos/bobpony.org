@@ -1,5 +1,5 @@
 # BobPony.org Codename "Bulma"
-Simply the upcoming new BobPony.org
+Simply the upcoming new BobPony.org website.
 ## Materials used
 - Bulma
 - Font Awesome

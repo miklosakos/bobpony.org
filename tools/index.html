@@ -4,6 +4,14 @@ title: Tools
 description: List of useful tools
 ---
 <div id="content">
+<script>
+    var x = "User-agent header: " + navigator.userAgent;
+    document.getElementById("useragent").innerHTML = x;
+</script>
+<script type="text/javascript">
+  var userip;
+</script>
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
 <section class="hero is-dark">
   <div class="hero-body">
     <div class="container">
@@ -17,5 +25,35 @@ description: List of useful tools
   </div>
   </div>
 </section>
-tools coming soon...
+<div class="columns">
+  <div class="column">
+    <div class="card">
+  <header class="card-header">
+    <p class="card-header-title">
+      User Agent
+    </p>
+  </header>
+  <div class="card-content">
+    <div class="content">
+      Your browser user agent is
+    </div>
+	<p id="useragent"></p>
+  </div>
+</div>
+  </div>
+  <div class="column">
+     <div class="card">
+  <header class="card-header">
+    <p class="card-header-title">
+      Your IP Address
+    </p>
+  </header>
+  <div class="card-content">
+    <div class="content">
+      <script type="text/javascript">document.write(userip);</script>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
 </div>
