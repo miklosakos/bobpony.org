@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+.dark {
+	color: white;
+}
+
 .twa {
   display: inline-block;
   height: 1em;
