@@ -1,5 +1,8 @@
----
-layout: page
-title: User agent
-description: View your browser's user agent.
----
+<html>
+<p id="useragent"></p>
+<script>
+    var x = "User-agent header: " + navigator.userAgent;
+    document.getElementById("useragent").innerHTML = x;
+</script>
+</body>
+</html>
