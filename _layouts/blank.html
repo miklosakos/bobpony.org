@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} - Bob Pony{% else %}Bob Pony{% endif %}</title>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}">
@@ -30,20 +29,18 @@
 <link rel="icon" href="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s88-c-k-no-rj-c0xffffff/photo.jpg" type="image/jpg" sizes="16x16">
 <link href="../css/twt.css" rel="stylesheet">
 	<script>
-	$(document).on('click', '.notification > button.delete', function() {
-    $(this).parent().addClass('is-hidden');
-    return false;
-});
-</script>
-<script>
-function toggleBurger() {
+		function toggleBurger() {
     var burger = $('.burger');
     var menu = $('.navbar-menu');
     burger.toggleClass('is-active');
     menu.toggleClass('is-active');
 }
+	$(document).on('click', '.notification > button.delete', function() {
+    $(this).parent().addClass('is-hidden');
+    return false;
+});
 </script>
-	  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </head>
   <body style="background-color: #444444;">
    {{ content }}
