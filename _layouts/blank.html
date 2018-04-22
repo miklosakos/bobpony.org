@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} - Bob Pony{% else %}Bob Pony{% endif %}</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}">
 <meta name="keywords" content="BPN, Bob Pony, BP, BPC, Discord, Twitter, YouTube, Blog, Home, Homepage, bobpony.org, social, chat, projects">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{% if page.title %}{{ page.title }} - Bob Pony{% else %}Bob Pony{% endif %}">
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Bob Pony{% endif %}">
-<meta property="og:url" content="{% if page.url %}{{ page.url }}{% else %}https://bobpony.org{% endif %}">
+<meta property="og:url" content="https://bobpony.org{{ page.url }}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}">
 <meta property="og:image" content="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}">
@@ -28,22 +28,13 @@
 <meta name="twitter:image" content="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg" />
 <link rel="icon" href="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s88-c-k-no-rj-c0xffffff/photo.jpg" type="image/jpg" sizes="16x16">
 <link href="../css/twt.css" rel="stylesheet">
-	  <script type="text/javascript">
-      (function() {
-        var burger = document.querySelector('.burger');
-        var nav = document.querySelector('#'+burger.dataset.target);
-
-        burger.addEventListener('click', function(){
-          burger.classList.toggle('is-active');
-          nav.classList.toggle('is-active');
-        });
-      })();
-    </script>
-	<script>
-	$(document).on('click', '.notification > button.delete', function() {
-    $(this).parent().addClass('is-hidden');
-    return false;
-});
+  <script>
+function toggleBurger() {
+    var burger = $('.burger');
+    var menu = $('.navbar-menu');
+    burger.toggleClass('is-active');
+    menu.toggleClass('is-active');
+}
 </script>
  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </head>
