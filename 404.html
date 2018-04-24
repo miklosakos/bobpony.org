@@ -1,19 +1,24 @@
 ---
 layout: page
 title: Page not found
-description: Non-existent page (Error 404)
+description: Error 404, the page you were looking for doesn't exist!
 ---
 
 <div id="content">
 <section class="hero is-dark">
   <div class="hero-body">
     <div class="container">
+    <div class="columns">
+	<div class="column is-narrow"><i class="fas fa-exclamation-circle fa-4x"></i></div>
+	<div class="column">
     <p class="title">
-      <i class="twa twa-warning"></i> Page not found!
+      {{ page.title }}
     </p>
     <p class="subtitle">
-      The page that you were looking for was either deleted, moved to another page, or you've probably mistyped the web address in the URL bar.
+      {{ page.description }}
     </p>
+	</div>
+	</div>
 <a class="button is-info is-rounded" href="https://docs.google.com/forms/d/e/1FAIpQLScVBwxsxExujo1EXkiyI9vvfOCqoeNEbyxJyd9VqWyMHIfs2w/viewform?usp=sf_link">Send Feedback</a>
   </div>
   </div>
