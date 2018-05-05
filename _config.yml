@@ -1,0 +1,6 @@
+plugins:
+   - jekyll-avatar
+   - jekyll-mentions
+   - jekyll-sitemap
+   - jemoji
+permalink: /blog/:categories/:title/

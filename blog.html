@@ -1,0 +1,65 @@
+---
+layout: page
+title: Blog
+description: Simply blog posts of stuff, currently in beta. This isn't the final design yet!
+permalink: /blog
+---
+<div id="content">
+<section class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+   <div class="columns">
+	<div class="column is-narrow"><i class="fas fa-rss fa-4x"></i></div>
+	<div class="column">
+    <p class="title">
+      {{ page.title }}
+    </p>
+    <p class="subtitle">
+      {{ page.description }}
+    </p>
+	</div>
+	</div>
+	<a class="button is-rounded" href="https://blog.bobpony.org">Visit the old blog</a>
+	<a class="button is-info is-rounded" href="https://docs.google.com/forms/d/e/1FAIpQLScVBwxsxExujo1EXkiyI9vvfOCqoeNEbyxJyd9VqWyMHIfs2w/viewform?usp=sf_link">
+    <span class="icon is-small">
+      <i class="far fa-smile"></i>
+    </span>
+    <span>Send Feedback</span>
+  </a>
+  </div>
+  </div>
+</section>
+<br />
+<section class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+
+<div class="row">
+{% for p in site.posts %}
+
+<div class="col project" style="margin: 0.2rem;">
+    <h2 style="font-size: 1.3em;"><a href="{{ p.url }}">{{ p.title }}</a></h2>
+	<h3 style="opacity: 0.6; font-size: 1.0em;">{{ p.description}}</h3>
+    <h3 style="opacity: 0.3; color: #eee; font-size: 0.9em;">Posted on {{ p.date | date: '%B %d, %Y' }} by {{ p.author }}</h3>
+</div>
+
+{% capture mod %}
+{{ forloop.index | modulo: 2 | times: 1 }}
+{% endcapture %}
+
+<!-- {{ mod }} -->
+
+{% if mod contains '0' %}
+</div>
+<div class="row">
+{% endif %}
+
+{% endfor %}
+</div>
+
+     
+    </div>
+  </div>
+</section>
+<br />
+</div>
