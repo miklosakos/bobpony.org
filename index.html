@@ -8,7 +8,7 @@ title: Home
   <div class="hero-body">
     <div class="container">
     <p class="title">
-      Welcome home!
+      Welcome home! :smile:
     </p>
     <p class="subtitle">
       To begin your navigation on this website, just explore around this website like links in the navigation bar at the top of the page or the links in the footer.
@@ -25,33 +25,41 @@ title: Home
     </span>
     <span>Send Feedback</span>
   </a>
+  {% if site.github.is_project_page %}
+  <a class="button is-rounded" href="{{ site.github.repository_url }}">
+    <span class="icon is-small">
+      <i class="fab fa-github"></i>
+    </span>
+    <span>View on GitHub</span>
+  </a>
+  {% endif %}
   </div>
   </div>
 </section>
 
 <div class="container">
+<br />
 </div>
 <div class="container">
 <div class="columns is-desktop">
   <div class="column"><div class="card">
   <header class="card-header">
     <p class="card-header-title">
-      Bob Pony Blog
+      Forums
     </p>
-    <a href="https://blog.bobpony.org" class="card-header-icon" aria-label="more options">
+    <a href="https://forums.bobpony.org" class="card-header-icon" aria-label="more options">
       <span class="icon">
-        <i class="fab fa-blogger" aria-hidden="true"></i>
+        <i class="fas fa-comments" aria-hidden="true"></i>
       </span>
     </a>
   </header>
   <div class="card-content">
     <div class="content">
-      The official Bob Pony Blog for updates, news, and anything that's upcoming.
+      Simply just forums.
     </div>
   </div>
   <footer class="card-footer">
-    <a href="https://blog.bobpony.org" class="card-footer-item"><i class="fas fa-book"></i> Read</a>
-    <a href="http://blog.bobpony.org/feeds/posts/default" class="card-footer-item"><i class="fas fa-rss-square"></i> RSS Feed</a>
+    <a href="https://forums.bobpony.org" class="card-footer-item"><i class="fas fa-book"></i> Visit</a>
   </footer>
 </div></div>
   <div class="column"><div class="card">
@@ -77,6 +85,69 @@ title: Home
   <div class="column"><div class="card">
   <header class="card-header">
     <p class="card-header-title">
+      /r/RaspberryPi10
+    </p>
+    <a href="https://old.reddit.com/r/RaspberryPi10/" class="card-header-icon" aria-label="more options">
+      <span class="icon">
+        <i class="fab fa-reddit-alien"></i>
+      </span>
+    </a>
+  </header>
+  <div class="card-content">
+    <div class="content">
+      Windows 10 on the Raspberry Pi
+    </div>
+  </div>
+  <footer class="card-footer">
+    <a href="https://old.reddit.com/r/RaspberryPi10/" class="card-footer-item">Visit the subreddit</a>
+  </footer>
+</div></div>
+</div>
+<div class="columns is-desktop">
+  <div class="column"><div class="card">
+  <header class="card-header">
+    <p class="card-header-title">
+      Bob Pony Blog (Old)
+    </p>
+    <a href="https://blog.bobpony.org" class="card-header-icon" aria-label="more options">
+      <span class="icon">
+        <i class="fab fa-blogger" aria-hidden="true"></i>
+      </span>
+    </a>
+  </header>
+  <div class="card-content">
+    <div class="content">
+      The official Bob Pony Blog for updates, news, and anything that's upcoming. Old blog.
+    </div>
+  </div>
+  <footer class="card-footer">
+    <a href="https://blog.bobpony.org" class="card-footer-item"><i class="fas fa-book"></i> Read</a>
+    <a href="http://blog.bobpony.org/feeds/posts/default" class="card-footer-item"><i class="fas fa-rss-square"></i> RSS Feed</a>
+  </footer>
+</div></div>
+  <div class="column"><div class="card">
+  <header class="card-header">
+    <p class="card-header-title">
+      Raspberry PE
+    </p>
+    <a href="https://raspberrype.bobpony.org" class="card-header-icon" aria-label="more options">
+      <span class="icon">
+        <i class="fa fa-globe" aria-hidden="true"></i>
+      </span>
+    </a>
+  </header>
+  <div class="card-content">
+    <div class="content">
+      A Windows 10 PE thing for the Raspberry Pi.
+    </div>
+  </div>
+  <footer class="card-footer">
+    <a href="https://raspberrype.bobpony.org" class="card-footer-item"><i class="fas fa-sign-in-alt"></i> Visit</a>
+  </footer>
+</div></div>
+  <div class="column"><div class="card">
+  <header class="card-header">
+    <p class="card-header-title">
       Bot Pony
     </p>
     <a href="https://bot.bobpony.org" class="card-header-icon" aria-label="more options">
@@ -87,17 +158,17 @@ title: Home
   </header>
   <div class="card-content">
     <div class="content">
-      Bot Pony the discord bot! Still being developed.
+      Bot Pony, the discord bot! Still being developed.
     </div>
   </div>
   <footer class="card-footer">
     <a href="https://bot.bobpony.org" class="card-footer-item">Website</a>
-    <a href="https://discordapp.com/oauth2/authorize?scope=bot&client_id=251908369261133825&permissions=-1" class="card-footer-item">Add</a>
-    <a href="https://blog.bobpony.org/search/label/Bot%20Pony" class="card-footer-item">Blog</a>
+    <a href="https://discordapp.com/oauth2/authorize?scope=bot&client_id=251908369261133825&permissions=-1" class="card-footer-item">Add to your discord server</a>
   </footer>
 </div></div>
 </div>
 </div>
+<br />
 <section class="hero is-info">
   <div class="hero-body">
     <div class="container">

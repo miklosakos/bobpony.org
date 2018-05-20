@@ -4,3 +4,5 @@ plugins:
    - jekyll-sitemap
    - jemoji
 permalink: /blog/:categories/:title/
+kramdown:
+  auto_ids: false

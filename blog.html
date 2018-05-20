@@ -20,6 +20,7 @@ permalink: /blog
 	</div>
 	</div>
 	<a class="button is-rounded" href="https://blog.bobpony.org">Visit the old blog</a>
+	<a class="button is-danger is-rounded" href="">RSS Feed</a>
 	<a class="button is-info is-rounded" href="https://docs.google.com/forms/d/e/1FAIpQLScVBwxsxExujo1EXkiyI9vvfOCqoeNEbyxJyd9VqWyMHIfs2w/viewform?usp=sf_link">
     <span class="icon is-small">
       <i class="far fa-smile"></i>
@@ -38,9 +39,10 @@ permalink: /blog
 {% for p in site.posts %}
 
 <div class="col project" style="margin: 0.2rem;">
-    <h2 style="font-size: 1.3em;"><a href="{{ p.url }}">{{ p.title }}</a></h2>
-	<h3 style="opacity: 0.6; font-size: 1.0em;">{{ p.description}}</h3>
-    <h3 style="opacity: 0.3; color: #eee; font-size: 0.9em;">Posted on {{ p.date | date: '%B %d, %Y' }} by {{ p.author }}</h3>
+    <h2 class="title is-3"><a href="{{ p.url }}">{{ p.title }}</a></h2>
+	<h3 style="opacity: 0.6;" class="subtitle is-5">{{ p.description}}</h3>
+    <h4 style="opacity: 0.3;" class="subtitle is-6">Posted on {{ p.date | date: '%B %d, %Y' }} by {{ p.author }}</h3>
+	<br />
 </div>
 
 {% capture mod %}
