@@ -15,6 +15,7 @@ h1 {font-size: 2em;}
     </p>
     <p class="subtitle">
       {{ page.description }}
+	  <i><a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{page.id}}">0 Comments</a></i>
     </p>
 	</div>
 	</div>
@@ -25,6 +26,8 @@ h1 {font-size: 2em;}
 <br />
 <div class="has-text-white container">
 {{ content }}
+<br />
 {% include comments.html %}
+<br />
 </div>
-<script id="dsq-count-scr" src="https://bobponyweb.disqus.com/count.js" async></script>
+<script id="dsq-count-scr" src="//bobponyweb.disqus.com/count.js" async></script>

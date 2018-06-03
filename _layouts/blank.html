@@ -29,12 +29,20 @@
 <link rel="icon" href="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s88-c-k-no-rj-c0xffffff/photo.jpg" type="image/jpg" sizes="16x16">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
   <script>
-function toggleBurger() {
-    var burger = $('.burger');
-    var menu = $('.navbar-menu');
-    burger.toggleClass('is-active');
-    menu.toggleClass('is-active');
-}
+$(document).ready(function() {
+
+  $('.navbar-burger').on('click', function(e) {
+    e.preventDefault();
+
+    // Get the target from the "data-target" attribute
+    var target = $(this).data('target');
+    var $target = $('#' + target);
+
+    // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+    $(this).toggleClass('is-active');
+    $target.toggleClass('is-active');
+  });
+});
 </script>
  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </head>
