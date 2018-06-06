@@ -4,7 +4,7 @@ layout: post
 image: new_comments/comments-square.png
 image-banner: new_comments/comments.png
 author: Epic
-comments: false
+comments: true
 author-link: http://epicness.cf
 description: Collaborator HYPE
 ---
