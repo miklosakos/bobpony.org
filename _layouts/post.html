@@ -17,6 +17,18 @@ h1 {font-size: 2em;}
       {{ page.description }}
 	  <i><a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{page.id}}">0 Comments</a></i>
     </p>
+	<a class="button is-info is-rounded" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank">
+    <span class="icon is-small">
+      <i class="fab fa-twitter"></i>
+    </span>
+    <span>Tweet</span>
+  </a>
+  <a class="button is-rounded" href="https://github.com/TheBobPony/bobpony.org/edit/master/{{ page.path }}">
+    <span class="icon is-small">
+      <i class="fas fa-pencil-alt"></i>
+    </span>
+    <span>Edit on GitHub</span>
+  </a>
 	</div>
 	</div>
 	
