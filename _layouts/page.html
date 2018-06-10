@@ -49,9 +49,9 @@ layout: blank
       <a href="/about" class="navbar-item">
   About
 </a>
-<a href="/partners" class="navbar-item">
+<!-- <a href="/partners" class="navbar-item">
   Partners
-</a>
+</a> -->
 <hr class="navbar-divider">
 	  <a href="https://docs.google.com/forms/d/e/1FAIpQLScVBwxsxExujo1EXkiyI9vvfOCqoeNEbyxJyd9VqWyMHIfs2w/viewform?usp=sf_link" class="navbar-item">
   Send Feedback
@@ -90,7 +90,23 @@ layout: blank
     </div>
    </div>
 </nav>
-
+<section class="hero is-dark bsa">
+  <div class="hero-body">
+    <div class="container">
+   <div class="columns">
+	<div class="column is-narrow"><i class="{{ page.icon }} fa-4x"></i></div>
+	<div class="column">
+    <p class="title">
+      {{ page.title }}
+    </p>
+    <p class="subtitle">
+      {{ page.description }}
+    </p>
+	</div>
+	</div>
+  </div>
+  </div>
+</section>
 {{content}}
 
 <footer class="footer">
@@ -122,14 +138,13 @@ layout: blank
 	<a href="https://bot.bobpony.org">Bot Pony Discord Bot</a><br>
 	<a href="../downloads">Downloads</a><br>
 	<a href="../gallery">Gallery</a><br>
-	<a href="../partners">Partners</a><br>
+	<!-- <a href="../partners">Partners</a><br> -->
   </div>
   <div class="column">
     <b>Additional Links</b><br>
 	<a href="../about">About</a><br>
 	<a href="https://status.bobpony.org">Status</a><br>
 	<a href="../tools">Tools</a><br>
-	<a href="../r">Random stuff</a><br>
   </div>
 </div>
  <p>

@@ -3,30 +3,13 @@ layout: page
 title: Tools
 description: List of useful tools
 permalink: /tools
+icon: fas fa-wrench
 ---
 <div id="content">
 <script type="text/javascript">
   var userip;
 </script>
 <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
-<section class="hero is-dark">
-  <div class="hero-body">
-    <div class="container">
-    <div class="columns">
-	<div class="column is-narrow"><i class="fas fa-wrench fa-4x"></i></div>
-	<div class="column">
-    <p class="title">
-      {{ page.title }}
-    </p>
-    <p class="subtitle">
-      {{ page.description }}
-    </p>
-	</div>
-	</div>
-	<a class="button is-rounded" href="./">User agent</a>
-  </div>
-  </div>
-</section>
 <br />
 <div class="container">
 <div class="columns">
@@ -40,13 +23,16 @@ permalink: /tools
   <div class="card-content">
     <div class="content">
       Your browser user agent is
-    </div>
-	<p id="useragent"></p>
+	<code><p id="useragent"></p></code>
 	<script>
 		var x = "User-agent header: " + navigator.userAgent;
 		document.getElementById("useragent").innerHTML = x;
 	</script>
+	</div>
   </div>
+   <footer class="card-footer">
+    <a class="card-footer-item">Copy to clipboard</a>
+  </footer>
 </div>
   </div>
   <div class="column">
@@ -58,9 +44,12 @@ permalink: /tools
   </header>
   <div class="card-content">
     <div class="content">
-      <script type="text/javascript">document.write(userip);</script>
+      <code><script type="text/javascript">document.write(userip);</script></code>
     </div>
   </div>
+   <footer class="card-footer">
+    <a class="card-footer-item">Copy to clipboard</a>
+  </footer>
 </div>
   </div>
 </div>

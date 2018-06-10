@@ -4,20 +4,9 @@ layout: page
 <style>
 h1 {font-size: 2em;}
 </style>
-<section class="hero is-dark">
-  <div class="hero-body">
-    <div class="container">
-   <div class="columns">
-	<div class="column is-narrow"><i class="fas fa-rss fa-4x"></i></div>
-	<div class="column">
-    <p class="title">
-      {{ page.title }}
-    </p>
-    <p class="subtitle">
-      {{ page.description }}
-	  <i><a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{page.id}}">0 Comments</a></i>
-    </p>
-	<a class="button is-info is-rounded" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank">
+<div class="has-text-white container">
+<br />
+<a class="button is-info is-rounded" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank">
     <span class="icon is-small">
       <i class="fab fa-twitter"></i>
     </span>
@@ -28,15 +17,8 @@ h1 {font-size: 2em;}
       <i class="fas fa-pencil-alt"></i>
     </span>
     <span>Edit on GitHub</span>
-  </a>
-	</div>
-	</div>
-	
-  </div>
-  </div>
-</section>
+  </a><br />
 <br />
-<div class="has-text-white container">
 {{ content }}
 <br />
 {% include comments.html %}
