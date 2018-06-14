@@ -1,8 +1,8 @@
 ---
 title: Update - Epic is now a Collaborator!
 layout: post
-image: new_comments/comments-square.png
-image-banner: new_comments/comments.png
+image: 
+image-banner: 
 author: Epic
 comments: true
 author-link: http://epicness.cf
