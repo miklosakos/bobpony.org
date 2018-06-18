@@ -2,6 +2,7 @@ plugins:
    - jekyll-avatar
    - jekyll-mentions
    - jekyll-sitemap
+   - jekyll-feed
    - jemoji
 permalink: /blog/:categories/:title/
 kramdown:
