@@ -1,9 +1,9 @@
 ---
 layout: blank
 ---
- <nav class="navbar is-info" role="navigation" aria-label="dropdown navigation">
+ <nav class="navbar is-dark" role="navigation" aria-label="dropdown navigation">
 
-    <div class="navbar-start">
+    <div class="navbar-start container">
 	 <div class="navbar-brand">
   <a href="/" class="navbar-brand">
     {% avatar TheBobPony  size=52%}
@@ -28,6 +28,9 @@ layout: blank
 <a href="/gallery" class="navbar-item {% if page.url == "/gallery" %}is-active{% endif %}">
   Gallery
 </a>
+<a href="/tools" class="navbar-item {% if page.url == "/tools" %}is-active{% endif %}">
+        Tools
+      </a>
   <div class="navbar-item has-dropdown is-hoverable">
     <a class="navbar-link">
       More
@@ -40,11 +43,7 @@ layout: blank
       <a href="http://gitcities.cf" class="navbar-item">
         GitCities
       </a>
-	  <hr class="navbar-divider">
       
-	<a href="/tools" class="navbar-item">
-        Tools
-      </a>
       <hr class="navbar-divider">
       <a href="/about" class="navbar-item">
   About
@@ -73,10 +72,10 @@ layout: blank
 <div class="navbar-item field">
 <form action="https://google.com/search" method="get">
               <p class="control has-icons-right">
-                <input class="input" name="q" id="search" type="search" placeholder="Search this site">
+                <input class="input" name="q" id="search" type="search" placeholder="Search with Google">
 				<input type="hidden" name="sitesearch" value="https://bobpony.org" />
                 <span class="icon is-small is-right">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ddd" d="M23.822 20.88l-6.353-6.354c.93-1.465 1.467-3.2 1.467-5.059.001-5.219-4.247-9.467-9.468-9.467s-9.468 4.248-9.468 9.468c0 5.221 4.247 9.469 9.468 9.469 1.768 0 3.421-.487 4.839-1.333l6.396 6.396 3.119-3.12zm-20.294-11.412c0-3.273 2.665-5.938 5.939-5.938 3.275 0 5.94 2.664 5.94 5.938 0 3.275-2.665 5.939-5.94 5.939-3.274 0-5.939-2.664-5.939-5.939z"/></svg>
+                  <i class="fas fa-search"></i>
                 </span>
               </p>
 			  </form>
@@ -102,15 +101,17 @@ layout: blank
     <p class="subtitle">
       {{ page.description }}
     </p>
-		<!-- Add qa buttons at least two here. jekyll style ofc. -->
+		
+	</div>
+	</div>
+	{{ page.qa1 }}
+		{{ page.qa2 }}
 		<a class="button is-rounded" href="https://github.com/TheBobPony/bobpony.org/edit/master/{{ page.path }}">
     <span class="icon is-small">
       <i class="fas fa-pencil-alt"></i>
     </span>
     <span>Edit this page on GitHub</span>
   </a>
-	</div>
-	</div>
   </div>
   </div>
 </section>
