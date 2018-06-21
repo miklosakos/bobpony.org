@@ -6,7 +6,7 @@ image-banner:
 author: Bob Pony
 comments: true
 author-link: https://bobpony.org
-description: The best tweaks for Windows 10 in my opinion.
+description: The best games and packs to buy for the summer sale!
 ---
 #Since steam summer sale is around the corner I've made a list of games you should buy if you don't have them right now.
 
