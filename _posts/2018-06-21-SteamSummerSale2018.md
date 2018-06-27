@@ -1,8 +1,7 @@
 ---
 title: Best packs/games to buy for the 2018 Steam Summer Sale
 layout: post
-image: 
-image-banner: 
+icon: fab fa-steam
 author: Bob Pony
 comments: true
 author-link: https://bobpony.org
