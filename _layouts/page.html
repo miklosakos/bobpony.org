@@ -33,34 +33,66 @@ layout: blank
 	</a>
   <div class="navbar-item has-dropdown is-hoverable">
     <a class="navbar-link">
-      More
+      Community
     </a>
     <div class="navbar-dropdown is-boxed">
-	<a href="https://old.reddit.com/r/RaspberryPi10/" class="navbar-item">
-        /r/RaspberryPi10
-      </a>
-      <a href="http://gitcities.cf" class="navbar-item">
-        GitCities
-      </a>
-      <hr class="navbar-divider">
-      <a href="/about" class="navbar-item">
-  About
-</a>
+<a class="navbar-item " href="https://discord.gg/wZSfjEx">
+              <span>
+                <span class="icon">
+                  <i class="fab fa-discord"></i>
+                </span>
+                <strong>Discord Server</strong>
+              </span>
+            </a>
 <!-- <a href="/partners" class="navbar-item">
   Partners
 </a> -->
 <hr class="navbar-divider">
-	  <a href="https://docs.google.com/forms/d/e/1FAIpQLScVBwxsxExujo1EXkiyI9vvfOCqoeNEbyxJyd9VqWyMHIfs2w/viewform?usp=sf_link" class="navbar-item">
-  Send Feedback
-</a>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScvtP5oNmCvEeITR5EO5E3H17_rjKVg1iOGV4DUt_XSOpppAg/viewform" class="navbar-item">
-        Submit video idea
-      </a>
+			<a class="navbar-item " href="https://docs.google.com/forms/d/e/1FAIpQLScvtP5oNmCvEeITR5EO5E3H17_rjKVg1iOGV4DUt_XSOpppAg/viewform">
+              <span>
+                <span class="icon">
+                  <i class="fas fa-video"></i>   
+                </span>
+                <strong>Submit video idea</strong>
+              </span>
+            </a>
       </div>  
 </div>
-	    <a href="https://status.bobpony.org" class="navbar-item">
- Status
-</a>
+<div class="navbar-item has-dropdown is-hoverable">
+    <a class="navbar-link">
+      Support
+    </a>
+    <div class="navbar-dropdown is-boxed">
+<a class="navbar-item " href="https://status.bobpony.org">
+              <span>
+                <span class="icon">
+                  <i class="fas fa-stethoscope"></i>
+                </span>
+                <strong>Status</strong>
+              </span>
+            </a>
+<!-- <a href="/partners" class="navbar-item">
+  Partners
+</a> -->
+<hr class="navbar-divider">
+<a class="navbar-item " href="https://docs.google.com/forms/d/e/1FAIpQLScVBwxsxExujo1EXkiyI9vvfOCqoeNEbyxJyd9VqWyMHIfs2w/viewform?usp=sf_link">
+              <span>
+                <span class="icon">
+                  <i class="fas fa-comments"></i>
+                </span>
+                <strong>Send Feedback</strong>
+              </span>
+            </a>
+			<a class="navbar-item " href="/about">
+              <span>
+                <span class="icon">
+                  <i class="fas fa-info-circle"></i>  
+                </span>
+                <strong>About</strong>
+              </span>
+            </a>
+      </div>  
+</div>
 </div>
  <div class="navbar-end">
 <div class="navbar-item field">
@@ -98,12 +130,57 @@ layout: blank
 	</div>
 	{{ page.qa1 }}
 		{{ page.qa2 }}
-		<a class="button is-rounded" href="https://github.com/TheBobPony/bobpony.org/edit/master/{{ page.path }}">
-    <span class="icon is-small">
-      <i class="fas fa-pencil-alt"></i>
+		
+  <div class="dropdown is-hoverable">
+  <div class="dropdown-trigger">
+    <button class="button is-rounded" aria-haspopup="true" aria-controls="dropdown-menu">
+	<span class="icon is-small">
+      <i class="far fa-file"></i>
     </span>
-    <span>Edit this page on GitHub</span>
-  </a>
+      <span>Page actions</span>
+      <span class="icon is-small">
+        <i class="fas fa-angle-down" aria-hidden="true"></i>
+      </span>
+    </button>
+  </div>
+  <div class="dropdown-menu" id="dropdown-menu" role="menu">
+    <div class="dropdown-content">
+	  <a class="navbar-item " href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}">
+              <span>
+                <span class="icon">
+                  <i class="fab fa-twitter"></i>
+                </span>
+                Tweet this page
+              </span>
+            </a>
+			<a class="navbar-item " href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}">
+              <span>
+                <span class="icon">
+                  <i class="fab fa-facebook"></i>
+                </span>
+                Share on Facebook
+              </span>
+            </a>
+			<a class="navbar-item " href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}">
+              <span>
+                <span class="icon">
+                  <i class="fab fa-google-plus"></i>
+                </span>
+                Share on Google+
+              </span>
+            </a>
+      <hr class="dropdown-divider">
+  <a class="navbar-item " href="https://github.com/TheBobPony/bobpony.org/edit/master/{{ page.path }}">
+              <span>
+                <span class="icon">
+                  <i class="fas fa-pencil-alt"></i>
+                </span>
+                Edit on GitHub
+              </span>
+            </a>
+    </div>
+  </div>
+</div>
   </div>
   </div>
 </section>
