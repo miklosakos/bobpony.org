@@ -1,5 +1,5 @@
 ---
-title: Fix missing "Sharing" tab in Windows 10
+title: How to fix the missing Sharing tab in Windows 10
 layout: post
 icon: fab fa-windows
 author: Bob Pony
@@ -25,7 +25,7 @@ In the top address bar of Registry Editor copy this below then paste it in then 
 ```Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked```
 
 ## 4. Delete the following registry
-If you got in then find `{f81e9010-6ea4-11ce-a7ff-00aa003ca9f6}` if it's there, then delete it.
+If you got in, then find this `{f81e9010-6ea4-11ce-a7ff-00aa003ca9f6}` if it's there, then delete it.
 
 ## 5. Sign out then sign back in
 After signing back in, when you go the folder's properties you should be able to see the "Sharing" tab now.
