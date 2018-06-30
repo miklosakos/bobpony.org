@@ -1,7 +1,8 @@
 ---
 layout: blank
+announcement: Hi
 ---
- <nav class="navbar is-dark" role="navigation" aria-label="dropdown navigation">
+ <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="dropdown navigation">
 
     <div class="navbar-start container">
 	 <div class="navbar-brand">
@@ -19,12 +20,45 @@ layout: blank
   <a href="/blog" class="navbar-item {% if page.url == "/blog" %}is-active{% endif %}">
   Blog
 </a>
-<a href="/downloads" class="navbar-item {% if page.url == "/downloads" %}is-active{% endif %}">
-  Downloads
-</a>
-<a href="/forums" class="navbar-item {% if page.url == "/forums" %}is-active{% endif %}">
-  Forums
-</a>
+<div class="navbar-item has-dropdown is-hoverable">
+    <a href="/downloads" class="navbar-link {% if page.url == "/downloads" %}is-active{% endif %}">
+      Downloads
+    </a>
+	<div class="navbar-dropdown is-boxed">
+<a class="navbar-item " href="/downloads#mswin">
+              <span>
+                <span class="icon">
+                  <i class="fab fa-windows"></i>
+                </span>
+                <strong>Windows</strong>
+              </span>
+            </a>
+<a class="navbar-item " href="/downloads#programs">
+              <span>
+                <span class="icon">
+                  <i class="fas fa-cubes"></i>
+                </span>
+                <strong>Programs</strong>
+              </span>
+            </a>
+			<a class="navbar-item " href="/downloads#updates">
+              <span>
+                <span class="icon">
+                  <i class="fas fa-sync"></i>   
+                </span>
+                <strong>Updates</strong>
+              </span>
+            </a>
+			<a class="navbar-item " href="/downloads#misc">
+              <span>
+                <span class="icon">
+                  <i class="fas fa-question-circle"></i>   
+                </span>
+                <strong>Misc</strong>
+              </span>
+            </a>
+      </div>  
+</div>
 	<a href="/gallery" class="navbar-item {% if page.url == "/gallery" %}is-active{% endif %}">
 	Gallery
 	</a>
@@ -32,7 +66,7 @@ layout: blank
         Tools
 	</a>
   <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link">
+    <a <!-- href="/community" --> class="navbar-link {% if page.url == "/community" %}is-active{% endif %}">
       Community
     </a>
     <div class="navbar-dropdown is-boxed">
@@ -59,7 +93,7 @@ layout: blank
       </div>  
 </div>
 <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link">
+    <a <!-- href="/support" --> class="navbar-link {% if page.url == "/support" %}is-active{% endif %}">
       Support
     </a>
     <div class="navbar-dropdown is-boxed">
@@ -184,6 +218,7 @@ layout: blank
   </div>
   </div>
 </section>
+{% include announcement.html %}
 {{content}}
 <footer class="footer">
   <div class="container">
