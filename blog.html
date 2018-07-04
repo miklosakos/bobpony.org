@@ -7,6 +7,10 @@ icon: fas fa-rss
 ---
 <div id="content">
 <br />
+
+<div class="columns">
+  <div class="column">
+<h1 class="title is-1 has-text-centered">Latest Posts</h1>
 <section class="hero is-dark">
   <div class="hero-body">
     <div class="container">
@@ -14,15 +18,18 @@ icon: fas fa-rss
 <div class="row">
 {% for p in site.posts %}
 
-<div class="col project" style="margin: 0.2rem;">
+<div class="columns">
+<div class="column is-narrow">
+    <i class="{{ p.icon }} fa-4x"></i>
+  </div>
+  <div class="column">
     <h2 class="title is-3"><a href="{{ p.url }}">{{ p.title }}</a></h2>
 	<h3 style="opacity: 0.6;" class="subtitle is-5"><i>{{ p.description}}</i></h3>
     <h4 style="opacity: 0.3;" class="subtitle is-6">Posted on {{ p.date | date: '%B %d, %Y' }} by {{ p.author }}</h3>
 	<i class="fas fa-comments"></i> <a href="{{ p.url }}#disqus_thread" data-disqus-identifier="{{p.id}}">0 comments</a><br />
 	<br />
-	<hr />
 </div>
-
+</div>
 {% capture mod %}
 {{ forloop.index | modulo: 2 | times: 1 }}
 {% endcapture %}
@@ -41,6 +48,21 @@ icon: fas fa-rss
     </div>
   </div>
 </section>
+
+  </div>
+  <!-- <div class="column">
+    <section class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Categories
+      </h1>
+      
+    </div>
+  </div>
+</section>
+  </div> -->
+
 <br />
 
 <script id="dsq-count-scr" src="//bobponyweb.disqus.com/count.js" async></script>

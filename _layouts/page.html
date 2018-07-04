@@ -65,8 +65,40 @@ announcement: Hi
 	<a href="/tools" class="navbar-item {% if page.url == "/tools" %}is-active{% endif %}">
         Tools
 	</a>
+	<div class="navbar-item has-dropdown is-hoverable">
+    <a href="/videos" class="navbar-link {% if page.url == "/videos" %}is-active{% endif %}">
+      Videos
+    </a>
+    <div class="navbar-dropdown is-boxed">
+<a class="navbar-item" href="/videos">
+              <span>
+                <span class="icon">
+                  <i class="fas fa-star"></i>
+                </span>
+                <strong>Most Popular</strong>
+              </span>
+            </a>
+<a class="navbar-item" href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw/videos">
+              <span>
+                <span class="icon">
+                  <i class="fas fa-video"></i>  
+                </span>
+                <strong>All videos</strong>
+              </span>
+            </a>
+<hr class="navbar-divider">
+			<a class="navbar-item" href="https://www.youtube.com/watch?v=x7vZW-qnj8c&list=UUAZzz2Dd9Xh6vTjNcxhqPZw" target="_blank">
+              <span>
+                <span class="icon">
+                   <i class="fab fa-youtube"></i>
+                </span>
+                <strong>Watch latest video</strong>
+              </span>
+            </a>
+      </div>  
+</div>
   <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link {% if page.url == "/community" %}is-active{% endif %}">
+    <a href="/community" class="navbar-link {% if page.url == "/community" %}is-active{% endif %}">
       Community
     </a>
     <div class="navbar-dropdown is-boxed">
@@ -93,7 +125,7 @@ announcement: Hi
       </div>  
 </div>
 <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link {% if page.url == "/support" %}is-active{% endif %}">
+    <a href="/support" class="navbar-link {% if page.url == "/support" %}is-active{% endif %}">
       Support
     </a>
     <div class="navbar-dropdown is-boxed">

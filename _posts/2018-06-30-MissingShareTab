@@ -6,6 +6,7 @@ author: Bob Pony
 comments: true
 author-link: https://bobpony.org
 description: How to fix a problem where the Sharing tab doesn't appear for the folder's properties.
+category: Tweaks
 ---
 # Are you trying to share folders over the network but you can't since the "Sharing" tab is missing?
 
