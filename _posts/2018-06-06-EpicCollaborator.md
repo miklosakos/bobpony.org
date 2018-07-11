@@ -1,8 +1,6 @@
 ---
 title: Update - Epic is now a Collaborator!
 layout: post
-image: 
-image-banner: 
 author: Epic
 comments: true
 author-link: http://epicness.cf
@@ -36,7 +34,7 @@ After looking at the source and running the script that is supposed to put it th
 So, after that, I knew it was an ordering issue. I put the script after the <p> tag, and it worked.
 
 I then sent [yet another pull request](https://github.com/TheBobPony/bobpony.org/pull/3) to fix this and it got merged.
-Soon after, I checked Discord and I saw an image. 
+Soon after, I checked Discord and I saw an image.
 
 ![Find image here https://i.imgur.com/5DaHZUm.png](https://i.imgur.com/5DaHZUm.png)
 
@@ -45,7 +43,3 @@ I was like "huh? what's this?"
 I checked my GitHub notifications, and saw a notification. It said that I was invited to collaborate in the bobpony.org GitHub.
 And here I am, today. I'm in the process of installing Jekyll as of me writing this post, so I can test the styling of the site.
 I've also tried to give more recommendations since, but I don't know if any have made it in yet.
-
-
-
-

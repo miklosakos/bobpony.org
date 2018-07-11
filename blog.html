@@ -4,25 +4,22 @@ title: Blog
 description: Simply blog posts of stuff, currently still being sanded down. This isn't the final design yet!
 permalink: /blog
 icon: fas fa-rss
+qa1: <a class="button is-primary is-rounded" href="/feed.xml" target="_blank"><span class="icon is-small"><i class="fas fa-rss"></i></span><span>RSS Feed</span></a>
 ---
-<div id="content">
+<div id="content" class="container">
 <br />
-
 <div class="columns">
   <div class="column">
-<h1 class="title is-1 has-text-centered">Latest Posts</h1>
-<section class="hero is-dark">
-  <div class="hero-body">
-    <div class="container">
-
+<h1 class="title is-4 has-text-centered"><i class="fas fa-file"></i> Latest Posts</h1>
 <div class="row">
 {% for p in site.posts %}
-
+<div class="box smallbox">
 <div class="columns">
 <div class="column is-narrow">
     <i class="{{ p.icon }} fa-4x"></i>
   </div>
   <div class="column">
+
     <h2 class="title is-3"><a href="{{ p.url }}">{{ p.title }}</a></h2>
 	<h3 style="opacity: 0.6;" class="subtitle is-5"><i>{{ p.description}}</i></h3>
     <h4 style="opacity: 0.3;" class="subtitle is-6">Posted on {{ p.date | date: '%B %d, %Y' }} by {{ p.author }}</h3>
@@ -30,11 +27,10 @@ icon: fas fa-rss
 	<br />
 </div>
 </div>
+</div>
 {% capture mod %}
 {{ forloop.index | modulo: 2 | times: 1 }}
 {% endcapture %}
-
-<!-- {{ mod }} -->
 
 {% if mod contains '0' %}
 </div>
@@ -44,10 +40,15 @@ icon: fas fa-rss
 {% endfor %}
 </div>
 
-     
+
+    </div>
+    <div class="column is-one-fifth">
+      <h1 class="title is-4 has-text-centered"><i class="fas fa-list-ul"></i> Categories</h1>
+    <div class="box smallbox">
+      <p class="has-text-centered">Nothing here yet, for now...</p>
     </div>
   </div>
-</section>
+  </div>
 
   </div>
   <!-- <div class="column">
@@ -57,7 +58,7 @@ icon: fas fa-rss
       <h1 class="title">
         Categories
       </h1>
-      
+
     </div>
   </div>
 </section>

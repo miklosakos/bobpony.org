@@ -1,8 +1,6 @@
 ---
 title: Testing the new comments
 layout: post
-image: 
-image-banner: 
 author: Bob Pony
 comments: true
 author-link: https://bobpony.org
