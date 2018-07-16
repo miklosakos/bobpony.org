@@ -6,7 +6,6 @@ author: Bob Pony
 comments: true
 author-link: https://bobpony.org
 description: Another wonderful find from the thrift store.
-youtubeId: czmUjSHgi4o
 ---
 <a name="summary"></a>
 # Summary
@@ -112,7 +111,7 @@ MBD: <a href="http://www.userbenchmark.com/System/Gateway-GT5028/92855">Gateway 
   <source src="https://cdn.discordapp.com/attachments/251863047587627008/468454761239281664/20180716123023.MP4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
-After trying out Windows 10 on this machine, I've felt this machine was more suited for Windows XP considering the sticker on the machine itself says "Designed for Windows XP", even though Windows 10 was able to be installed... It felt very slow to use even though the machine has an SSD, mainly during on startup the OS uses like 100% of the cpu for a few minutes then it would calm down. Also, it's a huge potato to game in Windows 10 even with "Game Mode" turned on. After experiencing the Windows 10 on the machine. I've felt it was time to downgrade back to good old Windows XP and see the huge difference in performance. The performance of Windows XP was huge and played games a ton better than Windows 10 with "Gaming Mode", what a pure joke on this machine. Also, Windows XP was a ton more snapper than Windows 10 especially since it doesn't use a ton of the CPU when starting up. Overall, this machine is very worth it for a retro gaming PC and maybe a game server too since I've used this pc for a bit when I was playing Half-Life 2 Deathmatch with my friends.
+After trying out Windows 10 on this machine, I've felt this machine was more suited for Windows XP considering the sticker on the machine itself says "Designed for Windows XP", even though Windows 10 was able to be installed... It felt very slow to use even though the machine has an SSD, mainly during on startup the OS uses like 100% of the cpu for a few minutes then it would calm down. Also, it's a huge potato to game in Windows 10 even with "Game Mode" turned on. After experiencing the Windows 10 on the machine. I've felt it was time to downgrade back to good old Windows XP and see the huge difference in performance. The performance of Windows XP was huge and played games a ton better than Windows 10 with "Gaming Mode", what a pure joke on this machine. Also, Windows XP was a ton more snapper than Windows 10 especially since it doesn't use a ton of the CPU when starting up. Overall, this machine is very worth it for a retro gaming PC and maybe a game server too since I've used this pc for a bit when I was playing Half-Life 2 Deathmatch with my friends last night.
 
 ![Windows XP Media Center](https://i.imgur.com/a48Pz3Z.jpg "Windows XP Media Center")
 <a name="issues"></a>
@@ -120,7 +119,7 @@ After trying out Windows 10 on this machine, I've felt this machine was more sui
 Some of the issues I've experienced with this PC is sometimes it may not want to post, but that's not a huge problem. Another thing is if a USB Flash drive is plugged in when turning on the PC, it will lock up at the BIOS POST test screen, it happens on a certain USB flash drive I have.
 <a name="conclusion"></a>
 # Conclusion
-This PC was sure worth the upgrade mainly due to its PCI express slots which is a modern feature that every new computer has nowadays, and I've felt it was time to retire my old HP computer that I've had since 2008 because things were aging not so well and it felt very obsolete for me because mainly due to the support of the hardware like AGP is very obsolete and no actually great GPUs for it and the PCI slot isn't good enough either due to its low speeds compared to PCI Express. Personally, I've felt that this PC is certainly a lot better than the old HP PC pc, and it was very easy to migrate the components from the HP pc like the RAM since it's DDR1 which they both use, the PCI cards since they both have PCI slots, including the SSD since they also both have SATA ports too. Overall, this PC is worth it.
+This PC was surely worth the upgrade mainly due to its PCI express slots which is a standard feature that every new computer has nowadays, and I've felt it was time to retire my old HP computer that I've had since 2008 because things were aging not so well and it felt very obsolete for me because mainly due to the support of the hardware like AGP is very obsolete and no actually great GPUs for it and the PCI slot isn't good enough either due to its low speeds compared to PCI Express. Personally, I've felt that this PC is certainly a lot better than the old HP PC pc, and it was very easy to migrate the components from the HP pc like the RAM since it's DDR1 which they both use, the PCI cards since they both have PCI slots, including the SSD since they also both have SATA ports too. Overall, this PC is worth it.
 <a name="gallery"></a>
 # Gallery
 ## CPU-Z
