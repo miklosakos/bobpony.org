@@ -15,6 +15,7 @@ Steps
 3. Edit the file ```config.vdf``` in a text editor (Don't use NOTEPAD!)
 
 In the text editor, find the section that looks like this
+
 ```"InstallConfigStore" {
 
 "Software" {
