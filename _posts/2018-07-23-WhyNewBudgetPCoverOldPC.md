@@ -32,7 +32,7 @@ The used computer most likely has no warranty because its warrantly has expired,
 
 # Why buy used?
 
-## 1. Price
+## 1. Pricing
 If you got a budget and of course it's lower than $80. I recommend that you buy the greatest specs laptop and make sure it's in actual great condition too.
 
 ## 2. A spare laptop
