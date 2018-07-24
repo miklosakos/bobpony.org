@@ -1,6 +1,6 @@
 ---
-title: Pick a new budget PC than a old PC from over 10 years ago
-description: Considering getting a pc that's over 10 years old, especially if its your first one? Think again.
+title: Pick a new budget PC, not an old PC from over 10 years ago
+description: Considering getting a PC that's over 10 years old, especially if its your first one? Think again.
 layout: post
 icon: fas fa-meh
 author: Bob Pony
@@ -25,7 +25,7 @@ The main issue with old laptops is their power efficiency, if you try to play Yo
 This doesn't just apply to laptops, it also applies to desktop computers since the old desktop computer, like ones with a Intel Pentium 4 or Pentium D are known for high energy usage and high heat including Apple's G5 computer tower they had. Think wisely, when purchasing a used computer!
 
 ## 4. Overheating
-Mainly with old laptops, you might come across where the laptop is too hot to use and burns your hands which it happens on old laptops because the thermal paste has most likely gone bad, but if you're not the kind of person who knows how to open inside the laptop and apply new thermal paste then consider on staying away from those old laptops
+Mainly with old laptops, you might come across where the laptop is too hot to use and burns your hands. This happens on old laptops because the thermal paste has most likely gone bad, but if you're not the kind of person who knows how to open the laptop and apply new thermal paste then consider on staying away from those old laptops.
 
 ## 5. Warranty expired
 The used computer most likely has no warranty because its warranty has expired, therefore good luck if it breaks on you.
