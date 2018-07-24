@@ -16,6 +16,12 @@ With Windows 10 April 2018 Update (version 1803 or build 17134), ever since Micr
 
 Don't worry! You're not alone, I've faced this problem too with Windows 10 computers since the Windows 10 April 2018 Update for me.
 
+Note: The steps below show the manual way to fix it. A (untested) Network Discovery auto-fixer is available [here.](https://mega.nz/#!yP5j0Zhb!k5ZO9bhHsHlSaO1pL-z0zQEBjNgrU_ukEpMuNlGwWso)
+It is a batch file, so you can see everything it tries to do by just editing it in Notepad. Nothing is being hidden from you. This tool works by itself, using built-in Windows tools, nothing but the `sc` and `net` commands are used for the service starting.
+If you have any questions about this, contact Epicness#8422 on Discord.
+All of the sc and net commands are passed through to advanced.txt too, so you can see what it does for yourself.
+If you don't want to do this, go ahead to the manual way below.
+
 # How to fix this
 
 ## 1. Right click on the start button
