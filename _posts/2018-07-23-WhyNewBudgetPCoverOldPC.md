@@ -19,8 +19,8 @@ Who knows what could be hiding with these old computers... They could be hiding 
 ## 2. Bad battery
 If you consider on traveling somewhere else with the old laptop, where the laptop isn't gonna be always plugged into the charger, well you would probably be out of luck since most laptops are over 10 years old most likely have a worn out battery, which can't hold any charge.
 
-## 3. Not very power effecient and bad performance
-The main issue with old laptops is their power efficiency, if you try to play YouTube videos on a old laptop especially if it's over 10 years old, you'll realize that the battery and the power efficency isn't really great since the laptop probably does not have video decoding in the graphics card; therefore, it will fallback to software video decoding which taxes the CPU. If you get the modern budget laptops out there, then there's no need to worry since they have the built-in video decoder in their integrated graphics nowadays.
+## 3. Not very power efficient and bad performance
+The main issue with old laptops is their power efficiency, if you try to play YouTube videos on a old laptop especially if it's over 10 years old, you'll realize that the battery and the power efficiency isn't really great since the laptop probably does not have video decoding in the graphics card; therefore, it will fallback to software video decoding which taxes the CPU. If you get the modern budget laptops out there, then there's no need to worry since they have the built-in video decoder in their integrated graphics nowadays.
 
 This doesn't just apply to laptops, it also applies to desktop computers since the old desktop computer, like ones with a Intel Pentium 4 or Pentium D are known for high energy usage and high heat including Apple's G5 computer tower they had. Think wisely, when purchasing a used computer!
 
