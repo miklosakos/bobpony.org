@@ -1,0 +1,4 @@
+# Don't include the built site,
+# used for local debugging/development
+# without GitHub Pages
+_site/
