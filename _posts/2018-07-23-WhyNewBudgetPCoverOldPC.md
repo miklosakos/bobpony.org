@@ -2,7 +2,7 @@
 title: Pick a new budget PC, not an old PC from over 10 years ago
 description: Considering getting a PC that's over 10 years old, especially if its your first one? Think again.
 layout: post
-icon: fas fa-meh
+icon: fas fa-laptop
 author: Bob Pony
 comments: true
 author-link: https://bobpony.org
