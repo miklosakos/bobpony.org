@@ -1,2 +1,5 @@
 # Let Bob review all the changes to the website
 * @TheBobPony
+
+# Tell TTtie about his borked code and also notice Bob
+/js/navbar.js @TTtie @TheBobPony
