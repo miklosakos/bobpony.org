@@ -1,0 +1,1 @@
+Feel free to contribute this website like fixing any spelling errors or any errors that you encounter on this website. Any fixes will gladly be accepted. Please e-mail me at BobPony@outlook.com if you are interested in being a collaborator then we'll talk about it.
