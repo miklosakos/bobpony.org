@@ -1,5 +1,5 @@
 ---
-title: Pick a new budget PC, not an old PC from over 10 years ago
+title: Pick a new budget PC over a old PC from over 10 years ago
 description: Considering getting a PC that's over 10 years old, especially if its your first one? Think again.
 layout: post
 icon: fas fa-laptop
@@ -22,7 +22,7 @@ If you consider on traveling somewhere else with the old laptop, where the lapto
 ## 3. Not very power efficient and bad performance
 The main issue with old laptops is their power efficiency, if you try to play YouTube videos on a old laptop especially if it's over 10 years old, you'll realize that the battery and the power efficiency isn't really great since the laptop probably does not have video decoding in the graphics card; therefore, it will fallback to software video decoding which taxes the CPU. If you get the modern budget laptops out there, then there's no need to worry since they have the built-in video decoder in their integrated graphics nowadays.
 
-This doesn't just apply to laptops, it also applies to desktop computers. 
+This doesn't just apply to laptops, it also applies to desktop computers.
 Old desktops, like Pentium 4s and Pentium D desktops, and PowerMac G5s, are also known to heat up things.
 
 ## 4. Overheating
