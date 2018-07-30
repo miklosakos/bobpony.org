@@ -7,5 +7,5 @@ plugins:
 permalink: /blog/:categories/:title/
 kramdown:
   auto_ids: false
-title: Bob Pony blog
+title: Bob Pony Blog
 description: The source of the how-tos and updates!
