@@ -1,14 +1,14 @@
 ---
 title: Fix Network Discovery problems where your PC doesn't show on the network
 layout: post
-icon: fab fa-windows
+icon: fas fa-wrench
 author: Bob Pony
 comments: true
 author-link: https://bobpony.org
 description: How to fix Network Discovery problems especially if you have Windows 10
 ---
 # Do you have issues where your computer refuses to be shown in the Network at all or any other computers not showing?
-It probably looks something like this, assuming that you already have turned on Network Discovery. 
+It probably looks something like this, assuming that you already have turned on Network Discovery.
 
 ![Nothing in Network](https://i.imgur.com/MujwP83.png "PCs not showing in the network.")
 

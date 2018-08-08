@@ -1,7 +1,7 @@
 ---
 title: The $8 AMD Athlon 64 X2 PC find!
 layout: post
-icon: fab fa-windows
+icon: fas fa-desktop
 author: Bob Pony
 comments: true
 author-link: https://bobpony.org
@@ -125,70 +125,70 @@ This PC was surely worth the upgrade mainly due to its PCI express slots which i
 ## CPU-Z
 <div class="columns">
 <div class="column">
-<a href="https://i.imgur.com/qACmDSR.png"><img src="https://i.imgur.com/qACmDSR.png" alt="CPU-Z - Memory"></a>
+<a href="https://i.imgur.com/qACmDSR.png"><img src="https://i.imgur.com/qACmDSR.png" alt="CPU-Z - Memory" border="2"></a>
 </div>
 <div class="column">
-<a href="https://i.imgur.com/43A04OW.png"><img src="https://i.imgur.com/43A04OW.png" alt="CPU-Z Graphics"></a>
+<a href="https://i.imgur.com/43A04OW.png"><img src="https://i.imgur.com/43A04OW.png" alt="CPU-Z Graphics" border="2"></a>
 </div>
 <div class="column">
-<a href="https://i.imgur.com/f2XDCdt.png"><img src="https://i.imgur.com/f2XDCdt.png" alt="CPU-Z Bench"></a>
+<a href="https://i.imgur.com/f2XDCdt.png"><img src="https://i.imgur.com/f2XDCdt.png" alt="CPU-Z Bench" border="2"></a>
 </div>
 </div>
 ## Speccy
 <div class="columns">
 <div class="column">
-<a href="https://i.imgur.com/GfCYQGm.png"><img src="https://i.imgur.com/GfCYQGm.png" alt="Speccy"></a>
+<a href="https://i.imgur.com/GfCYQGm.png"><img src="https://i.imgur.com/GfCYQGm.png" alt="Speccy" border="2"></a>
 </div>
 <div class="column">
-<a href="https://i.imgur.com/LwREbSo.png"><img src="https://i.imgur.com/LwREbSo.png" alt="Speccy Motherboard"></a>
+<a href="https://i.imgur.com/LwREbSo.png"><img src="https://i.imgur.com/LwREbSo.png" alt="Speccy Motherboard" border="2"></a>
 </div>
 <div class="column">
-<a href="https://i.imgur.com/8cxykbN.png"><img src="https://i.imgur.com/8cxykbN.png" alt="Optical Drives"></a>
+<a href="https://i.imgur.com/8cxykbN.png"><img src="https://i.imgur.com/8cxykbN.png" alt="Optical Drives" border="2"></a>
 </div>
 <div class="column">
-<a href="https://i.imgur.com/Wn7DokS.png"><img src="https://i.imgur.com/Wn7DokS.png" alt="Speccy Audio"></a>
+<a href="https://i.imgur.com/Wn7DokS.png"><img src="https://i.imgur.com/Wn7DokS.png" alt="Speccy Audio" border="2"></a>
 </div>
 </div>
 ## Others
 <div class="columns">
 <div class="column">
-<a href="https://i.imgur.com/oaAbiWE.png"><img src="https://i.imgur.com/oaAbiWE.png" alt="GPU-Z"></a>
+<a href="https://i.imgur.com/oaAbiWE.png"><img src="https://i.imgur.com/oaAbiWE.png" alt="GPU-Z" border="2"></a>
 </div>
 <div class="column">
-<a href="https://i.imgur.com/E1PWKJw.png"><img src="https://i.imgur.com/E1PWKJw.png" alt="Lack of acrylic effects"></a>
+<a href="https://i.imgur.com/E1PWKJw.png"><img src="https://i.imgur.com/E1PWKJw.png" alt="Lack of acrylic effects" border="2"></a>
 Even though the "transparency" option is on, there's no acrylic effects.
 </div>
 <div class="column">
-<a href="https://i.imgur.com/CUo7hmt.png"><img src="https://i.imgur.com/CUo7hmt.png" alt="Specs on Windows XP"></a>
+<a href="https://i.imgur.com/CUo7hmt.png"><img src="https://i.imgur.com/CUo7hmt.png" alt="Specs on Windows XP" border="2"></a>
 </div>
 </div>
 ## The physical PC itself
 <div class="columns">
 <div class="column">
-<a href="https://i.imgur.com/6SQupbR.jpg"><img src="/img/gateway/1.jpg" alt="PSU"></a>
+<a href="https://i.imgur.com/6SQupbR.jpg"><img src="/img/gateway/1.jpg" alt="PSU" border="2"></a>
 </div>
 <div class="column">
-<a href="https://i.imgur.com/9nChD2c.jpg"><img src="/img/gateway/2.jpg" alt="Front of the computer"></a>
+<a href="https://i.imgur.com/9nChD2c.jpg"><img src="/img/gateway/2.jpg" alt="Front of the computer" border="2"></a>
 </div>
 <div class="column">
-<a href="https://i.imgur.com/hf8rrPB.jpg"><img src="/img/gateway/3.jpg" alt="Inside of the computer"></a>
+<a href="https://i.imgur.com/hf8rrPB.jpg"><img src="/img/gateway/3.jpg" alt="Inside of the computer" border="2"></a>
 </div>
 <div class="column">
-<a href="https://i.imgur.com/9XrR2z9.jpg"><img src="/img/gateway/4.jpg" alt="Expansion slots"></a>
+<a href="https://i.imgur.com/9XrR2z9.jpg"><img src="/img/gateway/4.jpg" alt="Expansion slots" border="2"></a>
 </div>
 </div>
 <div class="columns">
 <div class="column">
-<a href="https://i.imgur.com/HOorRuB.jpg"><img src="/img/gateway/5.jpg" alt="DDR RAM"></a>
+<a href="https://i.imgur.com/HOorRuB.jpg"><img src="/img/gateway/5.jpg" alt="DDR RAM" border="2"></a>
 </div>
 <div class="column">
-<a href="https://i.imgur.com/OMDMStU.jpg"><img src="/img/gateway/6.jpg" alt="Rear I/O"></a>
+<a href="https://i.imgur.com/OMDMStU.jpg"><img src="/img/gateway/6.jpg" alt="Rear I/O" border="2"></a>
 </div>
 <div class="column">
-<a href="https://i.imgur.com/A9pLgl9.jpg"><img src="/img/gateway/7.jpg" alt="Sticky Note"></a>
+<a href="https://i.imgur.com/A9pLgl9.jpg"><img src="/img/gateway/7.jpg" alt="Sticky Note" border="2"></a>
 </div>
 <div class="column">
-<a href="https://i.imgur.com/txMuZoz.jpg"><img src="/img/gateway/8.jpg" alt="Support Sticker"></a>
+<a href="https://i.imgur.com/txMuZoz.jpg"><img src="/img/gateway/8.jpg" alt="Support Sticker" border="2"></a>
 </div>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 title: How to fix the missing Sharing tab in Windows 10
 layout: post
-icon: fab fa-windows
+icon: fas fa-share-square
 author: Bob Pony
 comments: true
 author-link: https://bobpony.org

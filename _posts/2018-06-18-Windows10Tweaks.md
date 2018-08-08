@@ -1,7 +1,7 @@
 ---
 title: Best Windows 10 Tweaks
 layout: post
-icon: fab fa-windows
+icon: fas fa-tasks
 author: Bob Pony
 comments: true
 author-link: https://bobpony.org
