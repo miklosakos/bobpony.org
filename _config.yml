@@ -1,3 +1,6 @@
+title: Bob Pony Blog
+description: The place where you can find information on updates and other stories here.
+
 plugins:
    - jekyll-avatar
    - jekyll-mentions
@@ -7,5 +10,6 @@ plugins:
 permalink: /blog/:categories/:title/
 kramdown:
   auto_ids: false
-title: Bob Pony Blog
-description: The place where you can find information on updates and other stories here.
+collections:
+  - downloads
+  - gallery
