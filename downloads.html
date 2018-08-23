@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Downloads
-description: The portal of downloads for everyone's needs.
+description: The downloads portal for everyone's needs.
 permalink: /downloads
 icon: fas fa-cloud-download-alt
 ---
@@ -9,10 +9,11 @@ icon: fas fa-cloud-download-alt
 
 <div class="container">
 {% for d in site.downloads %}
-
+<h1 class="title has-text-centered"><i class="{{ d.icon }}"></i> {{ d.title }}</h1>
     {{ d.content }}
+
 {% endfor %}
-  
+
 </div><br />
 
 </div>

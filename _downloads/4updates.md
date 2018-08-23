@@ -1,8 +1,9 @@
 ---
 layout: page
+title: Updates
+icon: fas fa-sync
 ---
 <a name="updates"></a>
-<h1 class="title is-1 has-text-white has-text-centered"><i class="fas fa-sync"></i> Updates</h1>
 <div class="container">
   <div class="columns">
     <div class="column">
@@ -17,9 +18,10 @@ layout: page
   </div>
 </div><br />
 
-
+<div class="columns">
+  <div class="column">
   <div class="box">
-    <div class="container">
+
       <h1 class="title">
         <i class="fab fa-windows"></i> Windows XP Service Packs
       </h1>
@@ -50,8 +52,10 @@ layout: page
     </span>
     <span>SP4 (Unofficial, x86)</span>
   </a>
-    </div><br />
-	<div class="container">
+</div>
+</div>
+<div class="column">
+<div class="box">
       <h1 class="title">
         <i class="fab fa-windows"></i> Windows Vista Service Packs
       </h1>
@@ -82,5 +86,6 @@ layout: page
     </span>
     <span>SP2 (x64)</span>
   </a>
-    </div>
+  <div>
+</div>
   </div>

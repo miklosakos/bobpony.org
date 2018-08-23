@@ -1,8 +1,10 @@
 ---
 layout: page
+title: Programs
+icon: far fa-window-restore
 ---
 <a name="programs"></a>
-<h1 class="title is-1 has-text-white has-text-centered"><i class="far fa-window-restore"></i> Programs</h1>
+<h1 class="title is-1 has-text-white has-text-centered"> </h1>
 <div class="container">
   <div class="columns">
     <div class="column">
@@ -21,34 +23,7 @@ layout: page
     </div>
   </div>
 </div><br />
-  <div class="box">
-    <div class="container">
-      <h1 class="title">
-        <i class="fab fa-windows"></i> Windows (Live) Essentials
-      </h1>
-      <h2 class="subtitle">
-        2009 works on Windows XP, 2011 works on Windows Vista, 2012 works on Windows 7 and higher.
-      </h2>
-	   <a class="button is-info is-rounded" href="https://drive.google.com/drive/folders/0B-sthtpwcglEelpGR0Y1SVBVUVE">
-    <span class="icon is-small">
-      <i class="fas fa-download"></i>
-    </span>
-    <span>2009</span>
-  </a>
-  <a class="button is-info is-rounded" href="https://drive.google.com/drive/folders/0B-sthtpwcglEem1za3dWdUU1Snc">
-    <span class="icon is-small">
-      <i class="fas fa-download"></i>
-    </span>
-    <span>2011</span>
-  </a>
-  <a class="button is-info is-rounded" href="https://drive.google.com/drive/folders/0B-sthtpwcglEZUpxcTZJZ2ZUX1E">
-    <span class="icon is-small">
-      <i class="fas fa-download"></i>
-    </span>
-    <span>2012</span>
-  </a>
-    </div><br />
-	<div class="container">
+<div class="box">
       <h1 class="title">
         <i class="fab fa-internet-explorer"></i> Internet Explorer
       </h1>
@@ -59,25 +34,47 @@ layout: page
     <span class="icon is-small">
       <i class="fas fa-download"></i>
     </span>
-    <span>Server 2003</span>
+    <span>Server 2003 (IE8)</span>
   </a>
   <a class="button is-info is-rounded" href="https://www.catalog.update.microsoft.com/Search.aspx?q=982861%20for%20Windows%20Server%202008">
     <span class="icon is-small">
       <i class="fas fa-download"></i>
     </span>
-    <span>Server 2008</span>
+    <span>Server 2008 (IE9)</span>
   </a>
   <a class="button is-info is-rounded" href="https://www.catalog.update.microsoft.com/Search.aspx?q=982861%20for%20Windows%20Vista">
     <span class="icon is-small">
       <i class="fas fa-download"></i>
     </span>
-    <span>Vista</span>
+    <span>Vista (IE9)</span>
   </a>
   <a class="button is-info is-rounded" href="https://support.microsoft.com/help/18520/download-internet-explorer-11-offline-installer">
     <span class="icon is-small">
       <i class="fas fa-download"></i>
     </span>
-    <span>7/Server 2008 R2</span>
+    <span>7/Server 2008 R2 (IE11)</span>
   </a>
     </div>
+  <div class="box">
+      <h1 class="title">
+        <i class="fab fa-windows"></i> Windows (Live) Essentials
+      </h1>
+	   <a class="button is-info is-rounded" href="https://drive.google.com/drive/folders/0B-sthtpwcglEelpGR0Y1SVBVUVE">
+    <span class="icon is-small">
+      <i class="fas fa-download"></i>
+    </span>
+    <span>2009 (XP+)</span>
+  </a>
+  <a class="button is-info is-rounded" href="https://drive.google.com/drive/folders/0B-sthtpwcglEem1za3dWdUU1Snc">
+    <span class="icon is-small">
+      <i class="fas fa-download"></i>
+    </span>
+    <span>2011 (Vista+)</span>
+  </a>
+  <a class="button is-info is-rounded" href="https://drive.google.com/drive/folders/0B-sthtpwcglEZUpxcTZJZ2ZUX1E">
+    <span class="icon is-small">
+      <i class="fas fa-download"></i>
+    </span>
+    <span>2012 (7+)</span>
+  </a>
   </div>
