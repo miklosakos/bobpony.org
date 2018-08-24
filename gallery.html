@@ -9,9 +9,7 @@ icon: fas fa-camera-retro
 <div id="content" class="container">
 
   {% for g in site.gallery %}
-<h1 class="title has-text-centered">{{ g.title }}</h1>
-      {{ g.content }}
-
-  {% endfor %}
+  <h1 class="title has-text-centered">{{ g.title }}</h1>
+  {{ g.content }} {% endfor %}
 
 </div>

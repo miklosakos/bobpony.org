@@ -6,72 +6,70 @@ permalink: /blog
 icon: fas fa-pen-alt
 qa1: <a class="button is-primary is-rounded" href="/feed.xml" target="_blank"><span class="icon is-small"><i class="fas fa-rss"></i></span></a>
 ---
+
 <div id="content" class="container">
-<br />
-<div class="columns">
-  <div class="column">
-<h1 class="title is-4 has-text-centered"><i class="fas fa-file"></i> Latest Posts</h1>
+  <br />
+  <div class="columns">
+    <div class="column">
+      <h1 class="title is-4 has-text-centered">
+        <i class="fas fa-file"></i> Latest Posts</h1>
 
-{% for p in site.posts %}
-<div class="box smallbox">
-<div class="columns">
-<div class="column is-narrow">
-    <p class="has-text-centered"><i class="{% if p.icon %}{{ p.icon }} fa-3x"></i>{% else %}fas fa-file fa-4x"></i>{% endif %}</p>
-  </div>
-  <div class="column">
+      {% for p in site.posts %}
+      <div class="box smallbox">
+        <div class="columns">
+          <div class="column is-narrow">
+            <p class="has-text-centered">
+              <i class="{% if p.icon %}{{ p.icon }} fa-3x"></i>{% else %}fas fa-file fa-4x"></i>{% endif %}</p>
+          </div>
+          <div class="column">
 
-    <h2 class="title is-4"><a href="{{ p.url }}">{{ p.title }}</a></h2>
-	<h3 style="opacity: 0.6;" class="subtitle is-6">{{ p.description}}</h3>
-  <div class="columns"><div class="column">
-    <p style="opacity: 0.3;">Posted on {{ p.date | date: '%B %d, %Y' }} by {{ p.author }}</p></div><div class="column is-one-fifth">
-	<p class="has-text-right"><i class="fas fa-comments"></i> <a href="{{ p.url }}#disqus_thread" data-disqus-identifier="{{p.id}}">0 Comments</a></p></div>
-</div>
-</div>
-</div>
-</div>
-{% capture mod %}
-{{ forloop.index | modulo: 2 | times: 1 }}
-{% endcapture %}
-
-{% if mod contains '0' %}
-
-{% endif %}
-
-{% endfor %}
-
-
-
+            <h2 class="title is-4">
+              <a href="{{ p.url }}">{{ p.title }}</a>
+            </h2>
+            <h3 style="opacity: 0.6;" class="subtitle is-6">{{ p.description}}</h3>
+            <div class="columns">
+              <div class="column">
+                <p style="opacity: 0.3;">Posted on {{ p.date | date: '%B %d, %Y' }} by {{ p.author }}</p>
+              </div>
+              <div class="column is-one-fifth">
+                <p class="has-text-right">
+                  <i class="fas fa-comments"></i>
+                  <a href="{{ p.url }}#disqus_thread" data-disqus-identifier="{{p.id}}">0 Comments</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% capture mod %} {{ forloop.index | modulo: 2 | times: 1 }} {% endcapture %} {% if mod contains '0' %} {% endif %} {% endfor
+      %}
     </div>
     <div class="column is-one-fifth">
-      <h1 class="title is-4 has-text-centered"><i class="fas fa-list-ul"></i> Sidebar</h1>
-<div class="card">
-  <header class="card-header">
-    <p class="card-header-title">
-      Search Posts
-    </p>
-  </header>
-  <div class="card-content">
-    <div class="field">
-    <form action="https://google.com/search" method="get">
-                  <p class="control has-icons-right">
-                    <input class="input is-rounded" name="q" id="search" type="search" placeholder="Search by Google">
-            <input type="hidden" name="sitesearch" value="https://bobpony.org/blog/" />
-                    <span class="icon is-small is-right">
-                      <i class="fas fa-search"></i>
-                    </span>
-                  </p>
+      <h1 class="title is-4 has-text-centered">
+        <i class="fas fa-list-ul"></i> Sidebar</h1>
+      <div class="card">
+        <header class="card-header">
+          <p class="card-header-title">
+            Search Posts
+          </p>
+        </header>
+        <div class="card-content">
+          <div class="field">
+            <form action="https://google.com/search" method="get">
+              <p class="control has-icons-right">
+                <input class="input is-rounded" name="q" id="search" type="search" placeholder="Search by Google">
+                <input type="hidden" name="sitesearch" value="https://bobpony.org/blog/" />
+                <span class="icon is-small is-right">
+                  <i class="fas fa-search"></i>
+                </span>
+              </p>
             </form>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-
-
-  </div>
-  </div>
-
-  </div>
-
 <br />
-
 <script id="dsq-count-scr" src="//bobponyweb.disqus.com/count.js" async></script>
 </div>

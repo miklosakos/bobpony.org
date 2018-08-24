@@ -5,15 +5,16 @@ description: The downloads portal for everyone's needs.
 permalink: /downloads
 icon: fas fa-cloud-download-alt
 ---
+
 <div id="content">
 
-<div class="container">
-{% for d in site.downloads %}
-<h1 class="title has-text-centered"><i class="{{ d.icon }}"></i> {{ d.title }}</h1>
-    {{ d.content }}
+    <div class="container">
+        {% for d in site.downloads %}
+        <h1 class="title has-text-centered">
+            <i class="{{ d.icon }}"></i> {{ d.title }}</h1>
+        {{ d.content }} {% endfor %}
 
-{% endfor %}
-
-</div><br />
+    </div>
+    <br />
 
 </div>

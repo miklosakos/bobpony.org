@@ -5,54 +5,61 @@ description: List of useful tools
 permalink: /toolbox
 icon: fas fa-toolbox
 ---
+
 <div id="content">
-<script type="text/javascript">
-  var userip;
-</script>
-<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
-<br />
-<div class="container">
-<div class="columns">
-  <div class="column">
-    <div class="card">
-  <header class="card-header">
-    <p class="card-header-title">
-      User Agent
-    </p>
-  </header>
-  <div class="card-content">
-    <div class="content">
-      Your browser user agent is
-	<code><p id="useragent"></p></code>
-	<script>
-		var x = "User-agent header: " + navigator.userAgent;
-		document.getElementById("useragent").innerHTML = x;
-	</script>
-	</div>
-  </div>
-   <!-- <footer class="card-footer">
+  <script type="text/javascript">
+    var userip;
+  </script>
+  <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+  <br />
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              User Agent
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="content">
+              Your browser user agent is
+              <code>
+                <p id="useragent"></p>
+              </code>
+              <script>
+                var x = "User-agent header: " + navigator.userAgent;
+                document.getElementById("useragent").innerHTML = x;
+              </script>
+            </div>
+          </div>
+          <!-- <footer class="card-footer">
     <a class="card-footer-item">Copy to clipboard</a>
   </footer> -->
-</div>
-  </div>
-  <div class="column">
-     <div class="card">
-  <header class="card-header">
-    <p class="card-header-title">
-      Your Public IP Address
-    </p>
-  </header>
-  <div class="card-content">
-    <div class="content">
-      <code><script type="text/javascript">document.write(userip);</script></code>
-    </div>
-  </div>
-  <!-- <footer class="card-footer">
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Your Public IP Address
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="content">
+              <code>
+                <script type="text/javascript">
+                  document.write(userip);
+                </script>
+              </code>
+            </div>
+          </div>
+          <!-- <footer class="card-footer">
     <a class="card-footer-item">Copy to clipboard</a>
   </footer> -->
-</div>
-  </div>
-  <!-- <div class="column">
+        </div>
+      </div>
+      <!-- <div class="column">
   <div class="card">
   <header class="card-header">
     <p id="title" class="card-header-title">
@@ -68,7 +75,7 @@ icon: fas fa-toolbox
   <!-- <footer class="card-footer">
     <a class="card-footer-item">Copy to clipboard</a>
   </footer> -->
-</div>
+    </div>
   </div>
 </div>
 </div>

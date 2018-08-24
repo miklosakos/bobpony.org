@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html class="has-navbar-fixed-top">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} - Bob Pony{% else %}Bob Pony{% endif %}</title>
-    <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
-    <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/darkly/bulmaswatch.min.css">
-    <link rel="stylesheet" href="/css/a_fix.css">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}">
-<meta name="keywords" content="BPN, Bob Pony, BP, BPC, Discord, Twitter, YouTube, Blog, Home, Homepage, bobpony.org, social, chat, projects">
-<meta name="author" content="Bob Pony">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Bob Pony">
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Bob Pony{% endif %}">
-<meta property="og:url" content="https://bobpony.org{{ page.url }}">
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}">
-<meta property="og:image" content="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg">
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}">
-<meta name="theme-color" content="#000000">
-<meta name="msapplication-TileColor" content="#000000" />
-<meta name="msapplication-square150x150logo" content="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@TheBobPony" />
-<meta name="twitter:creator" content="@TheBobPony" />
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }} - Bob Pony{% else %}Bob Pony{% endif %}" />
-<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}" />
-<meta name="twitter:image" content="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg" />
-<link rel="icon" href="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s88-c-k-no-rj-c0xffffff/photo.jpg" type="image/jpg" sizes="16x16">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} - Bob Pony{% else %}Bob Pony{% endif %}</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+  <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/darkly/bulmaswatch.min.css">
+  <link rel="stylesheet" href="/css/a_fix.css">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}">
+  <meta name="keywords" content="BPN, Bob Pony, BP, BPC, Discord, Twitter, YouTube, Blog, Home, Homepage, bobpony.org, social, chat, projects">
+  <meta name="author" content="Bob Pony">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Bob Pony">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Bob Pony{% endif %}">
+  <meta property="og:url" content="https://bobpony.org{{ page.url }}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}">
+  <meta property="og:image" content="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}">
+  <meta name="theme-color" content="#000000">
+  <meta name="msapplication-TileColor" content="#000000" />
+  <meta name="msapplication-square150x150logo" content="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg"
+  />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@TheBobPony" />
+  <meta name="twitter:creator" content="@TheBobPony" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - Bob Pony{% else %}Bob Pony{% endif %}" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}"
+  />
+  <meta name="twitter:image" content="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg"
+  />
+  <link rel="icon" href="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s88-c-k-no-rj-c0xffffff/photo.jpg"
+    type="image/jpg" sizes="16x16">
   <script src="/js/navbar.js"></script>
- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  </head>
-  <body style="background-color: #444444;">
-   {{ content }}
-   </body>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body style="background-color: #444444;">
+  {{ content }}
+</body>
 
 </html>
