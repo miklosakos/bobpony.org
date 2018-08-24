@@ -1,4 +1,4 @@
-# BobPony.org website
+# BobPony.org
 Simple website that you see on BobPony.org, proudly hosted by GitHub Pages. :ok_hand:
 ## Materials used
 - Bulma.io [CSS Framework]
