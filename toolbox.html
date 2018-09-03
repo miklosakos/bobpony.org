@@ -8,7 +8,7 @@ icon: fas fa-toolbox
 
 <div id="content">
   <script type="text/javascript">
-    var userip;
+    let userip;
   </script>
   <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
   <br />
@@ -25,11 +25,11 @@ icon: fas fa-toolbox
             <div class="content">
               Your browser user agent is
               <code>
-                <p id="useragent"></p>
+                <p id="useragent">Unknown/0.0</p>
               </code>
               <script>
-                var x = "User-agent header: " + navigator.userAgent;
-                document.getElementById("useragent").innerHTML = x;
+                const UAstring = navigator.userAgent;
+                document.getElementById('useragent').innerHTML = UAstring};
               </script>
             </div>
           </div>
@@ -47,11 +47,13 @@ icon: fas fa-toolbox
           </header>
           <div class="card-content">
             <div class="content">
+              Your public WAN IP is
               <code>
-                <script type="text/javascript">
-                  document.write(userip);
-                </script>
+                <p id="pubip">0.0.0.0</p>
               </code>
+              <script>
+                document.getElementById('pubip').innerHTML = userip;
+              </script>
             </div>
           </div>
           <!-- <footer class="card-footer">
