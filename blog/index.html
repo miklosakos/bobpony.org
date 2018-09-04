@@ -2,7 +2,6 @@
 layout: page
 title: Blog
 description: The place where you can find information on updates and other stories here.
-permalink: /blog
 icon: fas fa-pen-alt
 qa1: <a class="button is-primary is-rounded" href="/feed.xml" target="_blank"><span class="icon is-small"><i class="fas fa-rss"></i></span></a>
 ---
@@ -11,10 +10,7 @@ qa1: <a class="button is-primary is-rounded" href="/feed.xml" target="_blank"><s
   <br />
   <div class="columns">
     <div class="column">
-      <h1 class="title is-4 has-text-centered">
-        <i class="fas fa-file"></i> Latest Posts</h1>
-
-      {% for p in site.posts %}
+	{% for p in paginator.posts %}
       <div class="box smallbox">
         <div class="columns">
           <div class="column is-narrow">
@@ -24,7 +20,7 @@ qa1: <a class="button is-primary is-rounded" href="/feed.xml" target="_blank"><s
           <div class="column">
 
             <h2 class="title is-4">
-              <a href="{{ p.url }}">{{ p.title }}</a>
+              <a href="{{ p.url }}">{{ p.title }}</a> {% if p.category %} <a href="/blog/{{ p.category }}"><span class="tag is-info is-medium is-rounded">{{ p.category }}</span></a> {% else %}{% endif %}
             </h2>
             <h3 style="opacity: 0.6;" class="subtitle is-6">{{ p.description}}</h3>
             <div class="columns">
@@ -41,12 +37,10 @@ qa1: <a class="button is-primary is-rounded" href="/feed.xml" target="_blank"><s
           </div>
         </div>
       </div>
-      {% capture mod %} {{ forloop.index | modulo: 2 | times: 1 }} {% endcapture %} {% if mod contains '0' %} {% endif %} {% endfor
-      %}
+      {% endfor %}
+     
     </div>
     <div class="column is-one-fifth">
-      <h1 class="title is-4 has-text-centered">
-        <i class="fas fa-list-ul"></i> Sidebar</h1>
       <div class="card">
         <header class="card-header">
           <p class="card-header-title">
@@ -67,9 +61,54 @@ qa1: <a class="button is-primary is-rounded" href="/feed.xml" target="_blank"><s
           </div>
         </div>
       </div>
+	  <div class="card">
+        <header class="card-header">
+          <p class="card-header-title">
+            Categories
+          </p>
+        </header>
+        <div class="card-content">
+		<a href="/blog/guides"><span class="tag is-info is-medium is-rounded">guides</span></a>
+           <a href="/blog/update"><span class="tag is-info is-medium is-rounded">update</span></a>
+		   <a href="/blog/reviews"><span class="tag is-info is-medium is-rounded">reviews</span></a>
+		    <a href="/blog/tweaks"><span class="tag is-info is-medium is-rounded">tweaks</span></a>
+        </div>
+      </div>
     </div>
   </div>
+<div class="pagination">
+     <nav class="pagination is-centered is-rounded" role="navigation" aria-label="pagination">
+{% if paginator.total_pages > 1 %}
+
+  {% if paginator.previous_page %}
+	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-previous">Previous</a>
+  {% else %}
+	<a disabled class="pagination-previous">Previous</a>
+  {% endif %}
+{% if paginator.next_page %}
+	<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-next">Next page</a>
+  {% else %}
+    <a disabled class="pagination-next">Next page</a>
+  {% endif %}
+  {% for page in (1..paginator.total_pages) %}
+  <ul class="pagination-list">
+    {% if page == paginator.page %}
+	  <li><a class="pagination-link is-current" aria-label="Goto page {{ page }}">{{ page }}</a></li>
+    {% elsif page == 1 %}
+	  <li><a href="/blog/" class="pagination-link" aria-label="Goto page {{ page }}">{{ page }}</a></li>
+    {% else %}
+	  <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="pagination-link" aria-label="Goto page {{ page }}">{{ page }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</nav> 
+  
 </div>
+{% endif %}
+
+  
+</div>
+
 <br />
 <script id="dsq-count-scr" src="//bobponyweb.disqus.com/count.js" async></script>
 </div>

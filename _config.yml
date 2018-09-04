@@ -6,6 +6,7 @@ plugins:
    - jekyll-mentions
    - jekyll-sitemap
    - jekyll-feed
+   - jekyll-paginate
    - jemoji
 permalink: /blog/:categories/:title/
 kramdown:
@@ -13,3 +14,5 @@ kramdown:
 collections:
   - downloads
   - gallery
+paginate: 6
+paginate_path: "/blog/page:num/"

@@ -6,6 +6,7 @@ author: Bob Pony
 comments: true
 author-link: https://bobpony.org
 description: Fix the issue when you get "content servers unreachable" when downloading a game.
+category: guides
 ---
 Apparently since a few weeks ago, Windows XP users including Linux users who use wine to play their steam windows games on their Linux systems have been experiencing issues when trying to download the game from Steam, especially to the users who have a fresh install. I've experienced the same problem before, until now. I've found the solution on how to fix it, keep on reading to learn how!
 

@@ -6,6 +6,7 @@ author: Bob Pony
 comments: true
 author-link: https://bobpony.org
 description: Another wonderful find from the thrift store.
+category: reviews
 ---
 <a name="summary"></a>
 # Summary

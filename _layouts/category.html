@@ -1,0 +1,34 @@
+---
+layout: page
+---
+<div class="container">
+{% for p in site.categories[page.category] %}
+    <div class="box smallbox">
+        <div class="columns">
+          <div class="column is-narrow">
+            <p class="has-text-centered">
+              <i class="{% if p.icon %}{{ p.icon }} fa-3x"></i>{% else %}fas fa-file fa-4x"></i>{% endif %}</p>
+          </div>
+          <div class="column">
+
+            <h2 class="title is-4">
+              <a href="{{ p.url }}">{{ p.title }}</a>
+            </h2>
+            <h3 style="opacity: 0.6;" class="subtitle is-6">{{ p.description}}</h3>
+            <div class="columns">
+              <div class="column">
+                <p style="opacity: 0.3;">Posted on {{ p.date | date: '%B %d, %Y' }} by {{ p.author }}</p>
+              </div>
+              <div class="column is-one-fifth">
+                <p class="has-text-right">
+                  <i class="fas fa-comments"></i>
+                  <a href="{{ p.url }}#disqus_thread" data-disqus-identifier="{{p.id}}">0 Comments</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endfor %}
+<br />
+</div>

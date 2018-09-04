@@ -6,6 +6,7 @@ icon: fas fa-bolt
 author: TTtie
 comments: true
 author-link: https://tttie.github.io
+category: update
 ---
 
 Oh hey there! :wave:

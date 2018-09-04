@@ -5,6 +5,7 @@ author: Epic
 comments: true
 author-link: http://epicness.cf
 description: Collaborator HYPE
+category: update
 ---
 # Epic's Introduction
 I'm Epic, a Discord user since early 2016. I was a former staff of BPC and a developer in his team (BobDev) that has since been canceled in favor of GitCities.

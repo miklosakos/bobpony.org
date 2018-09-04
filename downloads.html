@@ -9,7 +9,17 @@ icon: fas fa-cloud-download-alt
 <div id="content">
 
     <div class="container">
+	<div class="has-text-centered">
+<div class="columns">
+{% for d in site.downloads %}
+<div class="column">
+<a href="#{{ d.id }}" class="button is-rounded is-medium">{{ d.title }}</a>
+</div>
+{% endfor %}
+</div>
+</div><br />
         {% for d in site.downloads %}
+		<a name="{{ d.id }}"></a>
         <h1 class="title has-text-centered">
             <i class="{{ d.icon }}"></i> {{ d.title }}</h1>
         {{ d.content }} {% endfor %}

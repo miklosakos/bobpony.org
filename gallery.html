@@ -7,8 +7,17 @@ icon: fas fa-camera-retro
 ---
 
 <div id="content" class="container">
-
+<div class="has-text-centered">
+<div class="columns">
+{% for g in site.gallery %}
+<div class="column">
+<a href="#{{ g.id }}" class="button is-rounded is-medium">{{ g.title }}</a>
+</div>
+{% endfor %}
+</div>
+</div><br />
   {% for g in site.gallery %}
+  <a name="{{ g.id }}"></a>
   <h1 class="title has-text-centered">{{ g.title }}</h1>
   {{ g.content }} {% endfor %}
 

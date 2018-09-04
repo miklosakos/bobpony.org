@@ -6,6 +6,7 @@ author: Bob Pony
 comments: true
 author-link: https://bobpony.org
 description: The guide on how to install the full Windows 10 on the Raspberry Pi 3.
+category: guides
 ---
 The Raspberry Pi 3 is a credit card sized computer for experimenting or for small projects. It's an inexpensive computer, if you don't have one then I highly recommend you that you should [get one](https://www.amazon.com/CanaKit-Raspberry-Power-Supply-Listed/dp/B07BC6WH7V) since they're very inexpensive and fun to play around with. This guide tells you how to easily install full Windows 10 for ARM on the Raspberry Pi 3, no Windows IoT!
 
