@@ -1,6 +1,5 @@
 ---
 layout: blank
-announcement: Hi
 ---
 
 <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="dropdown navigation">
@@ -31,7 +30,7 @@ announcement: Hi
           <a href="/videos" class="navbar-link {% if page.url == "/videos" %}is-active{% endif %}">
             Videos
           </a>
-          <div class="navbar-dropdown is-boxed">
+          <div class="navbar-dropdown is-boxed is-hidden-mobile">
             <a class="navbar-item" href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw/videos">
               <span>
                 <span class="icon">
@@ -72,7 +71,7 @@ announcement: Hi
           <a href="/community" class="navbar-link {% if page.url == "/community" %}is-active{% endif %}">
             Community
           </a>
-          <div class="navbar-dropdown is-boxed">
+          <div class="navbar-dropdown is-boxed is-hidden-mobile">
             <a class="navbar-item " href="https://discord.gg/wZSfjEx">
               <span>
                 <span class="icon">
@@ -107,7 +106,7 @@ announcement: Hi
           <a href="/support" class="navbar-link {% if page.url == "/support" %}is-active{% endif %}">
             Support
           </a>
-          <div class="navbar-dropdown is-boxed">
+          <div class="navbar-dropdown is-boxed is-hidden-mobile">
             <a class="navbar-item " href="https://status.bobpony.org">
               <span>
                 <span class="icon">
@@ -208,7 +207,7 @@ announcement: Hi
         </div>
         <div class="dropdown-menu" id="dropdown-menu" role="menu">
           <div class="dropdown-content">
-            <a class="navbar-item " href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}">
+            <a class="navbar-item" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}">
               <span>
                 <span class="icon">
                   <i class="fab fa-twitter fa-lg"></i>
@@ -216,7 +215,7 @@ announcement: Hi
                 &nbsp; Tweet this page
               </span>
             </a>
-            <a class="navbar-item " href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}">
+            <a class="navbar-item" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}">
               <span>
                 <span class="icon">
                   <i class="fab fa-facebook fa-lg"></i>
@@ -224,7 +223,7 @@ announcement: Hi
                 &nbsp; Share on Facebook
               </span>
             </a>
-            <a class="navbar-item " href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}">
+            <a class="navbar-item" href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}">
               <span>
                 <span class="icon">
                   <i class="fab fa-google-plus fa-lg"></i>
@@ -233,7 +232,7 @@ announcement: Hi
               </span>
             </a>
             <hr class="dropdown-divider">
-            <a class="navbar-item " href="https://github.com/TheBobPony/bobpony.org/issues/new/choose">
+            <a class="navbar-item" href="https://github.com/TheBobPony/bobpony.org/issues/new/choose">
               <span>
                 <span class="icon">
                   <i class="fas fa-exclamation-circle fa-lg"></i>
@@ -241,7 +240,7 @@ announcement: Hi
                 &nbsp; Report issue
               </span>
             </a>
-            <a class="navbar-item " href="https://github.com/TheBobPony/bobpony.org/edit/master/{{ page.path }}">
+            <a class="navbar-item is-hidden-mobile" href="https://github.com/TheBobPony/bobpony.org/edit/master/{{ page.path }}">
               <span>
                 <span class="icon">
                   <i class="fas fa-edit fa-lg"></i>
