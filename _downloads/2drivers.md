@@ -17,6 +17,6 @@ icon: fas fa-microchip
       <a class="button is-large is-fullwidth is-rounded" href="https://cdn.discordapp.com/attachments/251863047587627008/475640574049779742/SBLiveDOSDriver.zip" target="_blank"><span>Sound Blaster Live DOS Driver</span></a>
     </div>
     <div class="column">
-      <a class="button is-large is-fullwidth is-rounded" href="https://cdn.discordapp.com/attachments/251863047587627008/475640063145934858/Realtek8139.zip" target="_blank"><span>RLT8139 Drivers</span></a>
+      <a class="button is-large is-fullwidth is-rounded" href="https://cdn.discordapp.com/attachments/251863047587627008/475640063145934858/Realtek8139.zip" target="_blank"><span>RTL8139 Drivers</span></a>
     </div>
   </div>
